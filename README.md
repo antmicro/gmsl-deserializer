@@ -1,6 +1,6 @@
 # GMSL deserializer
 
-Copyright (c) 2018-2023 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2023 [Antmicro](https://www.antmicro.com)
 
 
 ## Licensing
