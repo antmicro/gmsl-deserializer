@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "GMSL Deserializer")
+    (date "2023-11-23")
+    (rev "1.0.0")
+    (company "Antmicro Ltd")
+    (comment 1 "www.antmicro.com")
+  )
+
   (lib_symbols
   )
 
