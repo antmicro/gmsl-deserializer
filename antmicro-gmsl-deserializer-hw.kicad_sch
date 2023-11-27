@@ -1543,11 +1543,23 @@
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/eb06c7ed-a589-4d32-8019-fe050443560a"
       (reference "D?") (unit 1) (value "LED_G_0603_LTST-C190GKT") (footprint "jetson-orin-baseboard-footprints:LED_0603_1608Metric_G")
     )
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/26bc8f87-db41-44f0-bb74-9e8f8f340ae5"
+      (reference "J?") (unit 1) (value "Conn_FAKRA_2FAI-NZSP-PCBB6") (footprint "antmicro-footprints:Conn_FAKRA_2FAI-NXSP-PCBB6")
+    )
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/353ea96d-a731-47f3-81b9-b7ca0a8bbaad"
+      (reference "J?") (unit 1) (value "Conn_FAKRA_2FAI-NZSP-PCBB6") (footprint "antmicro-footprints:Conn_FAKRA_2FAI-NXSP-PCBB6")
+    )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/54d24135-ca61-4df1-9439-e22946c875c8"
       (reference "J?") (unit 1) (value "Conn_FFC_68715014522_ONE-SIDE") (footprint "jetson-orin-baseboard-footprints:WE_68715014522_ONE-SIDE")
     )
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/6edc24b5-874e-4a63-abb7-c2cc119feb1a"
+      (reference "J?") (unit 1) (value "Conn_FAKRA_2FAI-NZSP-PCBB6") (footprint "antmicro-footprints:Conn_FAKRA_2FAI-NXSP-PCBB6")
+    )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/99edd6d1-7518-46cb-8382-d9213286224b"
       (reference "J?") (unit 1) (value "Conn_FFC_68715014522_ONE-SIDE") (footprint "jetson-orin-baseboard-footprints:WE_68715014522_ONE-SIDE")
+    )
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/ebe15be0-1358-43ae-8b6a-2fd558a38052"
+      (reference "J?") (unit 1) (value "Conn_FAKRA_2FAI-NZSP-PCBB6") (footprint "antmicro-footprints:Conn_FAKRA_2FAI-NXSP-PCBB6")
     )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/3380a293-1233-4a2c-b67f-432349cf23b1"
       (reference "R?") (unit 1) (value "R_4x0R_0201_array") (footprint "jetson-orin-baseboard-footprints:R_Array_4x0201_Panasonic_EXB18V")
