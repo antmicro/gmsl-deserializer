@@ -2870,8 +2870,8 @@
     (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/f986e7ec-ddf4-4738-9d46-1b6e5c42c55c"
       (reference "C60") (unit 1) (value "C_10u_25V_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
-    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/0b0e1305-3def-44c7-a8ac-0c2ac9e2b595"
-      (reference "D1") (unit 1) (value "DF2S30FS_SOD") (footprint "antmicro-footprints:SOD-923")
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/6170c385-9e52-4795-b5b6-b7d30dd353f6"
+      (reference "D1") (unit 1) (value "SMF4L15A") (footprint "antmicro-footprints:SOD-123FL")
     )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/34dad493-cb9d-4746-8896-aee9437a439c"
       (reference "D2") (unit 1) (value "LED_G_0603_LTST-C190GKT") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
