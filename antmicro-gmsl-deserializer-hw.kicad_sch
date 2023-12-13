@@ -2903,8 +2903,8 @@
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/e3c6d6c3-1d91-47c2-87ed-f8d1873ee15f"
       (reference "D11") (unit 1) (value "ESD5B5_0ST1G") (footprint "antmicro-footprints:SOD-523_NP")
     )
-    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/a5d3c2e7-4b24-40ae-94bb-046de62232a8"
-      (reference "F1") (unit 1) (value "F_3A_1206") (footprint "antmicro-footprints:F_1206_3216Metric")
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/4a96aeac-798c-43e2-8a04-dbfdb780f53f"
+      (reference "F1") (unit 1) (value "F_4A_1206") (footprint "antmicro-footprints:F_1206_3216Metric")
     )
     (path "/ccc3f85e-68e8-4f1e-8603-12c1ffcbc35d"
       (reference "H1") (unit 1) (value "Spacer_Drill3.7mm_H2.5mm_9774025151R") (footprint "antmicro-footprints:Spacer_Drill3.7mm_H2.5mm_9774025151R")
