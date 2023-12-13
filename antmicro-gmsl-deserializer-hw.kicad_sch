@@ -165,8 +165,46 @@
         )
       )
     )
+    (symbol "antmicropower:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (id 0) (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (id 1) (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
   )
 
+
+  (junction (at 349.25 221.615) (diameter 0) (color 0 0 0 0)
+    (uuid 8ebab9d4-5b75-4532-993e-50fcb11d2e8c)
+  )
   (junction (at 349.25 242.57) (diameter 0) (color 0 0 0 0)
     (uuid b2d47563-25a6-4027-a11d-bb17b66ebcc1)
   )
@@ -2175,6 +2213,22 @@
     (pin "1" (uuid 2e8935f3-8574-4dbb-9a17-ee62985eaea2))
   )
 
+  (symbol (lib_id "antmicropower:PWR_FLAG") (at 349.25 221.615 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid db6f629c-c790-43b0-9f6f-5bc72cf8b596)
+    (property "Reference" "#FLG0103" (id 0) (at 349.25 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (id 1) (at 349.25 217.805 0))
+    (property "Footprint" "" (id 2) (at 349.25 221.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 349.25 221.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 29b5afad-946b-429d-a376-8609be3f44c4))
+  )
+
   (sheet (at 88.9 198.755) (size 45.72 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -2339,6 +2393,24 @@
   )
 
   (symbol_instances
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/9b26a6ca-deab-4a2c-a750-4b996027ca22"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/bf54b915-2d6c-4b8c-8c33-04eacb17362d"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/db6f629c-c790-43b0-9f6f-5bc72cf8b596"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/1f3092a0-a31a-451d-b86c-83b988bc8e0e"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/28fa7cf7-85c2-499f-ae54-7b6f01de7df5"
+      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/c876aa33-dbb1-44a0-9568-b927653df70d"
+      (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/168eea42-ba70-4574-a447-d9144072f20d"
       (reference "#PWR01") (unit 1) (value "+1V8") (footprint "")
     )
@@ -2387,7 +2459,7 @@
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/77c5e6e4-55af-4d84-9d02-f063cb087b2e"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/8077fe6e-8432-4029-8ce8-82821bf4aec4"
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/28b282df-bd08-45b0-8037-f957e1b865ee"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/d1d1cf4e-95bc-4959-8dc5-f38e6e130566"
@@ -2515,9 +2587,6 @@
     )
     (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/9fd8e936-2abf-4d9e-ad95-b86cfdb1e38c"
       (reference "#PWR059") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/ede063a0-bba1-4d3f-965f-28ebdb0fae62"
-      (reference "#PWR060") (unit 1) (value "+1V8") (footprint "")
     )
     (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/3baacc95-9cc5-4a6f-881d-c9fa598c756f"
       (reference "#PWR061") (unit 1) (value "+1V2") (footprint "")
@@ -2689,6 +2758,9 @@
     )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/43077ca7-cefe-45b7-acb8-a4b2756de6e2"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/04eb3bd6-67d6-4f18-90cf-64ec64984856"
+      (reference "#PWR0118") (unit 1) (value "+1V8") (footprint "")
     )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/297ffae4-44cd-4fea-9756-7c4f45405a0c"
       (reference "C1") (unit 1) (value "C_10u_25V_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
@@ -2873,7 +2945,7 @@
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/6170c385-9e52-4795-b5b6-b7d30dd353f6"
       (reference "D1") (unit 1) (value "SMF4L15A") (footprint "antmicro-footprints:SOD-123FL")
     )
-    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/34dad493-cb9d-4746-8896-aee9437a439c"
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/164b4950-c030-456a-99d4-8b645553765d"
       (reference "D2") (unit 1) (value "LED_G_0603_LTST-C190GKT") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/c77659fe-f70e-4bcf-a14c-167c6afba2d3"
@@ -3026,7 +3098,7 @@
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/67c4c1e6-9e4d-4b44-ad0e-5169d54c71e8"
       (reference "R6") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
-    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/da57c8f0-637a-4ffe-9ba8-05c56f172436"
+    (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/ebf5b67d-5967-45a0-85d0-2d774f1b472f"
       (reference "R7") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/ae49c26f-b8fd-4e91-97cf-b90991cd17ee"

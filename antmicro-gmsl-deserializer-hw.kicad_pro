@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.254
         }
       },
@@ -154,7 +154,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1473200|1866900|b41040d3-b450-4550-8794-4bf10c51c3f6|32862a41-7315-4d11-99b0-03c601cf0a1c",
+      "multiple_net_names|1473200|2101850|2b9d85b8-371f-440e-a900-7bc763f13acd|b304413d-eac3-43d7-8a92-7a12467c91b7",
+      "multiple_net_names|1473200|2336800|dc01285e-7176-471a-b476-de6f51deef2f|090b0f52-d83e-4c93-9a9a-275712aa0141",
+      "multiple_net_names|1473200|2571750|288de8c2-4aa7-4017-bf41-609b3f5b1ded|c2c8aa1d-5ce6-41c5-a360-bc391164e333",
+      "pin_to_pin|3492500|2216150|29b5afad-946b-429d-a376-8609be3f44c4|53ede931-7105-4e1d-8fda-a34267980f6d",
+      "pin_to_pin|971550|2247900|099791ad-8e86-40fe-97ce-6345a20cc17c|1b5fbb9e-feee-48c6-bf92-93bc8357ca45",
+      "pin_to_pin|971550|2247900|e93dacbe-63a8-4f1c-ad1e-20965550e207|1b5fbb9e-feee-48c6-bf92-93bc8357ca45",
+      "pin_to_pin|971550|2247900|fe62d7f6-1a57-4e24-8823-d7d0cee075be|1b5fbb9e-feee-48c6-bf92-93bc8357ca45"
+    ],
     "meta": {
       "version": 0
     },
