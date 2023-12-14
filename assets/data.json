@@ -1,5 +1,5 @@
 {
-    "id": "antmicro-gmsl-deserializer-hw",
+    "id": "gmsl-deserializer",
     "componentIds": [
         "tdk-c1608x5r1e106m080ac",
         "murata-grm155r71h103ka88d",

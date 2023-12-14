@@ -437,7 +437,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "antmicro-gmsl-deserializer-hw.kicad_pro",
+    "filename": "gmsl-deserializer.kicad_pro",
     "version": 1
   },
   "net_settings": {
