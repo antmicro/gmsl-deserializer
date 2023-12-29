@@ -201,7 +201,6 @@
     )
   )
 
-
   (junction (at 349.25 221.615) (diameter 0) (color 0 0 0 0)
     (uuid 8ebab9d4-5b75-4532-993e-50fcb11d2e8c)
   )
@@ -2558,9 +2557,6 @@
     (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/43b38935-6616-418f-ae79-40f76715e8a1"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
     )
-    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/fa0d7f1c-3d2b-40fb-9923-bbb41d7e2499"
-      (reference "#PWR050") (unit 1) (value "+1V8") (footprint "")
-    )
     (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/711164d8-095a-4ca5-ae1d-d8681ff8f669"
       (reference "#PWR051") (unit 1) (value "GND") (footprint "")
     )
@@ -3077,8 +3073,8 @@
     (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/d58f616f-6336-4fdb-90ce-9775aaec58e5"
       (reference "Q2") (unit 1) (value "SQS401EN-T1_BE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
     )
-    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/a9dd2716-2557-4c55-8d12-c4072fc1385b"
-      (reference "Q3") (unit 1) (value "BCM857BS-7-F") (footprint "antmicro-footprints:SOT-363")
+    (path "/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5/e988cc7d-c3e2-4c0b-b967-9e9a4315d7c1"
+      (reference "Q3") (unit 1) (value "DZDH0401DW") (footprint "antmicro-footprints:SOT-363")
     )
     (path "/67434a8c-79b7-41fa-b4c4-5db7983eccb1/99fcc96d-b8f8-47fe-b9c8-85fccb74e399"
       (reference "R1") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
