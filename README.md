@@ -2,8 +2,7 @@
 
 Copyright (c) 2023-2024 [Antmicro](https://www.antmicro.com)
 
-![](img/photoT.png)
-
+![](img/gmsl-deserializer-board-vis.png)
 
 ## Overview
 
@@ -11,14 +10,12 @@ This project contains open hardware design files for the Antmicro GMSL Deseriali
 
 The design files were prepared in KiCad 6.x.
 
-
 ## Key features
 
 * Four GMSL2 ports
 * PoC circuit for providing up to 12W per GMSL line, over coaxial cable
 * MIPI CSI-2 interface on a 50-pin Antmicro Dual Camera connector
 * DC Power connector
-
 
 ## Project structure
 
