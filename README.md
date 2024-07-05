@@ -8,7 +8,7 @@ Copyright (c) 2023-2024 [Antmicro](https://www.antmicro.com)
 
 This project contains open hardware design files for the Antmicro GMSL Deserializer Board, capable of translating up to 4 GMSL signals into 2x 4-lane MIPI CSI-2 interfaces. The board is designed to connect to a baseboard, e.g. [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard), via a 50-pin Antmicro Dual Camera interface.
 
-The design files were prepared in KiCad 6.x.
+The design files were prepared in KiCad 7.
 
 ## Key features
 
@@ -22,7 +22,6 @@ The design files were prepared in KiCad 6.x.
 The main directory contains KiCad PCB project files, a LICENSE, and a README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
 * `img` - contains graphics for this README
 * `doc` - contains schematics in PDF format
 * `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com).
