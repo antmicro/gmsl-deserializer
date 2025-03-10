@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "GMSL Deserializer")
-		(date "2024-06-17")
-		(rev "1.0.2")
+		(date "2025-03-10")
+		(rev "1.0.3")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
@@ -136,16 +136,6 @@
 			)
 			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -360,16 +350,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -568,16 +548,6 @@
 			)
 			(property "Dielectric" ""
 				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -792,16 +762,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -1000,16 +960,6 @@
 			)
 			(property "Dielectric" ""
 				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1224,16 +1174,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
 				(at 0 0 0)
 				(effects
@@ -1432,16 +1372,6 @@
 			)
 			(property "Dielectric" ""
 				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2056,16 +1986,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "License" "Apache-2.0"
 				(at 22.86 -22.86 0)
 				(effects
@@ -2343,16 +2263,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 13.97 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "SMT, INDUCTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -2590,16 +2500,6 @@
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 13.97 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 					(justify left bottom)
 					(hide yes)
@@ -2847,16 +2747,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 13.97 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "SMT, INDUCTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -3094,16 +2984,6 @@
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 13.97 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 					(justify left bottom)
 					(hide yes)
@@ -3351,16 +3231,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 13.97 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "SMT, INDUCTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -3534,16 +3404,6 @@
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 					(justify left bottom)
 					(hide yes)
@@ -3810,10 +3670,48 @@
 					(hide yes)
 				)
 			)
+			(symbol "DZDH0401DW_1_0"
+				(pin no_connect line
+					(at 2.54 -3.81 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 13.97 -3.81 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(symbol "DZDH0401DW_1_1"
 				(rectangle
-					(start 2.54 1.905)
-					(end 13.97 -4.445)
+					(start 2.54 2.54)
+					(end 13.97 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4259,16 +4157,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -4444,16 +4332,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4645,16 +4523,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -4830,16 +4698,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5031,16 +4889,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -5216,16 +5064,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5417,16 +5255,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -5602,16 +5430,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5803,16 +5621,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -5988,16 +5796,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6189,16 +5987,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -6382,16 +6170,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -6567,16 +6345,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6777,16 +6545,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0603, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -6949,16 +6707,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 10.16 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "TESTPOINT"
 				(at 0 0 0)
 				(effects
@@ -7051,7 +6799,7 @@
 				)
 			)
 			(property "Description" "Power MOSFET, N Channel, 50 V, 220 mA, 6.0 ohm, SOT-23, Surface Mount"
-				(at 0 0 0)
+				(at 52.324 -21.844 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7097,16 +6845,6 @@
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 					(justify left bottom)
 					(hide yes)
@@ -7322,7 +7060,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 0 0)
 					(length 2.54)
 					(name "G"
@@ -7429,7 +7167,7 @@
 				)
 			)
 			(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
-				(at 0 0 0)
+				(at 47.752 -15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7475,16 +7213,6 @@
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 					(justify left bottom)
 					(hide yes)
@@ -7700,7 +7428,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 0 0)
 					(length 2.54)
 					(name "G"
@@ -7806,8 +7534,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-Channel 40 V 16A (Tc) 62.5W (Tc) Surface Mount PowerPAK® 1212-8"
-				(at 0 0 0)
+			(property "Description" "MOSFET, P Channel, 40 V, 16A, 0.047 ohm, PowerPAK 1212-8, Surface Mount"
+				(at 53.34 -24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7853,16 +7581,6 @@
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 					(justify left bottom)
 					(hide yes)
@@ -8132,7 +7850,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 0 0)
 					(length 2.54)
 					(name "G"
@@ -8997,6 +8715,12 @@
 		(uuid "4a867aff-a33f-4f9d-a3b4-73242a3ff494")
 	)
 	(junction
+		(at 76.2 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd88bc6-1659-4183-8665-6e79b07fd6dc")
+	)
+	(junction
 		(at 82.55 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9440,6 +9164,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 224.79) (xy 81.28 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3d4dab-fc7f-4a4e-a489-cee519fbce5a")
+	)
+	(wire
+		(pts
 			(xy 82.55 210.82) (xy 82.55 224.79)
 		)
 		(stroke
@@ -9580,7 +9314,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 224.79) (xy 81.28 224.79)
+			(xy 66.04 224.79) (xy 76.2 224.79)
 		)
 		(stroke
 			(width 0)
@@ -14281,6 +14015,7 @@
 	)
 	(label "FB_1V8"
 		(at 309.88 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14291,6 +14026,7 @@
 	)
 	(label "FB_1V2"
 		(at 309.88 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14301,6 +14037,7 @@
 	)
 	(label "EN_1V2"
 		(at 280.67 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14311,6 +14048,7 @@
 	)
 	(label "FFC_5V_EN"
 		(at 347.98 222.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14321,6 +14059,7 @@
 	)
 	(label "OUT_1V8"
 		(at 367.03 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14331,6 +14070,7 @@
 	)
 	(label "FFC_5V_ISET"
 		(at 374.65 219.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14341,6 +14081,7 @@
 	)
 	(label "SW_1V8"
 		(at 309.88 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14351,6 +14092,7 @@
 	)
 	(label "EN_12V"
 		(at 189.23 238.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14361,6 +14103,7 @@
 	)
 	(label "OUT_12V"
 		(at 238.76 232.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14371,6 +14114,7 @@
 	)
 	(label "OUT_12V"
 		(at 275.59 240.03 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14381,6 +14125,7 @@
 	)
 	(label "OUT_1V2"
 		(at 367.03 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14391,6 +14136,7 @@
 	)
 	(label "EN_1V8"
 		(at 280.67 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14401,6 +14147,7 @@
 	)
 	(label "FFC_5V_EN"
 		(at 326.39 223.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14411,6 +14158,7 @@
 	)
 	(label "OUT_1V8"
 		(at 340.36 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14421,6 +14169,7 @@
 	)
 	(label "SW_12V"
 		(at 214.63 232.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14431,6 +14180,7 @@
 	)
 	(label "FB_12V"
 		(at 214.63 237.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14441,6 +14191,7 @@
 	)
 	(label "OUT_1V2"
 		(at 340.36 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14451,6 +14202,7 @@
 	)
 	(label "FFC_5V_EN"
 		(at 53.34 233.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14461,6 +14213,7 @@
 	)
 	(label "SW_1V2"
 		(at 309.88 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14471,6 +14224,7 @@
 	)
 	(label "FFC_5V_FLG"
 		(at 347.98 219.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14482,6 +14236,7 @@
 	(hierarchical_label "FFC_5V"
 		(shape input)
 		(at 330.2 217.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14493,6 +14248,7 @@
 	(hierarchical_label "PoCA"
 		(shape output)
 		(at 168.91 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14504,6 +14260,7 @@
 	(hierarchical_label "FFC_5V"
 		(shape input)
 		(at 309.88 215.9 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14515,6 +14272,7 @@
 	(hierarchical_label "DC_IN"
 		(shape input)
 		(at 30.48 224.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14526,6 +14284,7 @@
 	(hierarchical_label "PoCD"
 		(shape output)
 		(at 168.91 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14537,6 +14296,7 @@
 	(hierarchical_label "PoCB"
 		(shape output)
 		(at 168.91 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14548,6 +14308,7 @@
 	(hierarchical_label "PoCC"
 		(shape output)
 		(at 168.91 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14703,7 +14464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 388.62 53.34 0)
 			(effects
 				(font
@@ -14843,7 +14604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 189.23 236.22 0)
 			(effects
 				(font
@@ -14993,7 +14754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 121.92 140.97 0)
 			(effects
 				(font
@@ -15154,7 +14915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 22 µH, 1.85 A, Shielded, 2.45 A, WE-MAPI"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -15409,7 +15170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 22 µH, 1.85 A, Shielded, 2.45 A, WE-MAPI"
 			(at 104.14 114.3 0)
 			(effects
 				(font
@@ -15570,7 +15331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -15721,7 +15482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 279.4 50.8 0)
 			(effects
 				(font
@@ -15862,7 +15623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 375.92 77.47 0)
 			(effects
 				(font
@@ -16002,7 +15763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 81.28 148.59 0)
 			(effects
 				(font
@@ -16341,7 +16102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 uF, 4 V, 0402 [1005 Metric], X6S"
 			(at 349.25 149.86 0)
 			(effects
 				(font
@@ -16491,7 +16252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 121.92 149.86 0)
 			(effects
 				(font
@@ -16630,7 +16391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 185.42 229.87 0)
 			(effects
 				(font
@@ -16841,7 +16602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wirewound Inductor, 1 µH, 0.072 ohm, 2.6 A, SRP2010"
 			(at 321.31 132.08 0)
 			(effects
 				(font
@@ -17068,7 +16829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 340.36 223.52 0)
 			(effects
 				(font
@@ -17217,7 +16978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 120 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
 			(at 223.52 237.49 0)
 			(effects
 				(font
@@ -17357,7 +17118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 327.66 72.39 0)
 			(effects
 				(font
@@ -17563,7 +17324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 388.62 134.62 0)
 			(effects
 				(font
@@ -17798,7 +17559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 81.28 248.92 0)
 			(effects
 				(font
@@ -17939,7 +17700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1.65 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 129.54 240.03 0)
 			(effects
 				(font
@@ -18090,7 +17851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 346.71 214.63 0)
 			(effects
 				(font
@@ -18390,7 +18151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 129.54 232.41 0)
 			(effects
 				(font
@@ -18530,7 +18291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky Rectifier, 30 V, 1 A, Single, SOD-323F, 2 Pins, 520 mV"
 			(at 234.95 232.41 0)
 			(effects
 				(font
@@ -18659,7 +18420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1.65 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 275.59 264.16 0)
 			(effects
 				(font
@@ -18809,7 +18570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 50.8 252.73 0)
 			(effects
 				(font
@@ -19016,7 +18777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power MOSFET, N Channel, 50 V, 220 mA, 6.0 ohm, SOT-23, Surface Mount"
 			(at 57.15 245.11 0)
 			(effects
 				(font
@@ -19139,7 +18900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 168.91 248.92 0)
 			(effects
 				(font
@@ -19279,7 +19040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 104.14 72.39 0)
 			(effects
 				(font
@@ -19418,7 +19179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 2.2 µF, 10 V, 0402 [1005 Metric], ± 10%, X5R, C"
 			(at 180.34 236.22 0)
 			(effects
 				(font
@@ -19567,7 +19328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 311.15 137.16 0)
 			(effects
 				(font
@@ -19876,7 +19637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 uF, 4 V, 0402 [1005 Metric], X6S"
 			(at 340.36 149.86 0)
 			(effects
 				(font
@@ -20119,7 +19880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -20439,7 +20200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 121.92 62.23 0)
 			(effects
 				(font
@@ -20601,7 +20362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 309.88 222.25 0)
 			(effects
 				(font
@@ -20742,7 +20503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 50.8 242.57 0)
 			(effects
 				(font
@@ -20974,7 +20735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor"
 			(at 353.06 55.88 0)
 			(effects
 				(font
@@ -21216,7 +20977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 309.88 229.87 0)
 			(effects
 				(font
@@ -21460,7 +21221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 388.62 142.24 0)
 			(effects
 				(font
@@ -21787,7 +21548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 121.92 97.79 0)
 			(effects
 				(font
@@ -21924,7 +21685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor"
 			(at 353.06 132.08 0)
 			(effects
 				(font
@@ -22167,7 +21928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 Mohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 102.87 248.92 0)
 			(effects
 				(font
@@ -22401,7 +22162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 335.28 55.88 0)
 			(effects
 				(font
@@ -22838,7 +22599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 335.28 132.08 0)
 			(effects
 				(font
@@ -22956,7 +22717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1.65 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 31.75 243.84 0)
 			(effects
 				(font
@@ -23049,6 +22810,71 @@
 			(project "gmsl-deserializer"
 				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 76.2 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f8abdf3-6cf2-4e8d-97ec-7568f73ce670")
+		(property "Reference" "#FLG01"
+			(at 76.2 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 76.2 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a592e1c2-bf44-44d0-bd2d-2ab99b4b4881")
+		)
+		(instances
+			(project "gmsl-deserializer"
+				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -23200,7 +23026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 88.9 148.59 0)
 			(effects
 				(font
@@ -23445,7 +23271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 168.91 241.3 0)
 			(effects
 				(font
@@ -23677,7 +23503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 220 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, MC"
 			(at 222.25 242.57 0)
 			(effects
 				(font
@@ -23827,7 +23653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 279.4 128.27 0)
 			(effects
 				(font
@@ -23967,7 +23793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 66.04 224.79 0)
 			(effects
 				(font
@@ -24149,7 +23975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 311.15 60.96 0)
 			(effects
 				(font
@@ -24298,7 +24124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 250.19 232.41 0)
 			(effects
 				(font
@@ -24509,7 +24335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -24670,7 +24496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 88.9 71.12 0)
 			(effects
 				(font
@@ -24821,7 +24647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 12.4 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 327.66 62.23 0)
 			(effects
 				(font
@@ -25055,7 +24881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 104.14 97.79 0)
 			(effects
 				(font
@@ -25195,7 +25021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 31.75 236.22 0)
 			(effects
 				(font
@@ -25334,7 +25160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 104.14 124.46 0)
 			(effects
 				(font
@@ -25567,7 +25393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC-DC Switching Synchronous Buck Regulator, Adjustable, 4.2V-18Vin, 0.8V-7V/3A out, TSOT-26-6"
 			(at 288.29 55.88 0)
 			(effects
 				(font
@@ -25697,7 +25523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 6.8 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 387.35 224.79 0)
 			(effects
 				(font
@@ -26251,7 +26077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 109.22 224.79 0)
 			(effects
 				(font
@@ -26369,7 +26195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
 			(at 245.11 238.76 0)
 			(effects
 				(font
@@ -26520,7 +26346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 327.66 149.86 0)
 			(effects
 				(font
@@ -26755,7 +26581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
 			(at 382.27 152.4 0)
 			(effects
 				(font
@@ -26887,7 +26713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 104.14 149.86 0)
 			(effects
 				(font
@@ -27025,7 +26851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -27186,7 +27012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
 			(at 334.01 223.52 0)
 			(effects
 				(font
@@ -27336,7 +27162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -27591,7 +27417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 88.9 123.19 0)
 			(effects
 				(font
@@ -27930,7 +27756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
 			(at 262.89 142.24 0)
 			(effects
 				(font
@@ -28268,7 +28094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 139.7 62.23 0)
 			(effects
 				(font
@@ -28429,7 +28255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 121.92 124.46 0)
 			(effects
 				(font
@@ -28568,7 +28394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 121.92 72.39 0)
 			(effects
 				(font
@@ -28801,7 +28627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 81.28 123.19 0)
 			(effects
 				(font
@@ -28951,7 +28777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC-DC Switching Synchronous Buck Regulator, Adjustable, 4.2V-18Vin, 0.8V-7V/3A out, TSOT-26-6"
 			(at 288.29 132.08 0)
 			(effects
 				(font
@@ -29081,7 +28907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 139.7 88.9 0)
 			(effects
 				(font
@@ -29242,7 +29068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 22 µH, 1.85 A, Shielded, 2.45 A, WE-MAPI"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -29498,7 +29324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 388.62 60.96 0)
 			(effects
 				(font
@@ -29637,7 +29463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 139.7 140.97 0)
 			(effects
 				(font
@@ -29798,7 +29624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 139.7 114.3 0)
 			(effects
 				(font
@@ -29960,7 +29786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 4.99 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 327.66 138.43 0)
 			(effects
 				(font
@@ -30100,7 +29926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 64.77 254 0)
 			(effects
 				(font
@@ -30218,7 +30044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 279.4 143.51 0)
 			(effects
 				(font
@@ -30359,7 +30185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
 			(at 262.89 64.77 0)
 			(effects
 				(font
@@ -30509,7 +30335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 22 µH, 1.85 A, Shielded, 2.45 A, WE-MAPI"
 			(at 104.14 62.23 0)
 			(effects
 				(font
@@ -30671,7 +30497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 uF, 4 V, 0402 [1005 Metric], X6S"
 			(at 340.36 72.39 0)
 			(effects
 				(font
@@ -30887,7 +30713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 275.59 256.54 0)
 			(effects
 				(font
@@ -31026,7 +30852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wirewound Inductor, 1 µH, 0.072 ohm, 2.6 A, SRP2010"
 			(at 321.31 55.88 0)
 			(effects
 				(font
@@ -31185,7 +31011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Load Distribution Switch, High Side, Active High, 1 Output, 5.5 V, 3.6 A, 0.04 ohm, TSOT-26-6"
 			(at 359.41 217.17 0)
 			(effects
 				(font
@@ -31317,7 +31143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 157.48 140.97 0)
 			(effects
 				(font
@@ -31477,7 +31303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET, P Channel, 40 V, 16A, 0.047 ohm, PowerPAK 1212-8, Surface Mount"
 			(at 95.25 231.14 0)
 			(effects
 				(font
@@ -31953,7 +31779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 uF, 4 V, 0402 [1005 Metric], X6S"
 			(at 349.25 72.39 0)
 			(effects
 				(font
@@ -32101,7 +31927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor"
 			(at 88.9 210.82 0)
 			(effects
 				(font
@@ -32353,7 +32179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 375.92 158.75 0)
 			(effects
 				(font
@@ -32493,7 +32319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Step-Up Regulator  2.7V to 14V, 1.4A"
 			(at 199.39 232.41 0)
 			(effects
 				(font
@@ -32620,7 +32446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMD), 10 µH, 3.1 A, Shielded, 3.4 A, SRN8040"
 			(at 204.47 220.98 0)
 			(effects
 				(font
@@ -32966,7 +32792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OR Controller N+1 ORing Controller P-Channel 1:1 SOT-363"
 			(at 82.55 238.76 0)
 			(effects
 				(font
@@ -33031,6 +32857,12 @@
 		(pin "6"
 			(uuid "c72f1744-7d76-4334-99ba-1c3bce5e6c1e")
 		)
+		(pin "1"
+			(uuid "11e2dfcb-67c7-4db9-882f-2265098baa2d")
+		)
+		(pin "5"
+			(uuid "80e03116-75d0-4cb0-a28d-37cda3f19d60")
+		)
 		(instances
 			(project "gmsl-deserializer"
 				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/32fa9edb-d9f7-4795-8f8b-6c5ca11623b5"
@@ -33093,7 +32925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Ceramic, 13.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film"
 			(at 217.17 250.19 0)
 			(effects
 				(font
@@ -33325,7 +33157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor"
 			(at 254 232.41 0)
 			(effects
 				(font
@@ -33633,7 +33465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -33784,7 +33616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 279.4 67.31 0)
 			(effects
 				(font
@@ -33925,7 +33757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
 			(at 382.27 71.12 0)
 			(effects
 				(font
@@ -34057,7 +33889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -34208,7 +34040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
 			(at 394.97 224.79 0)
 			(effects
 				(font
@@ -34358,7 +34190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Inductor (SMT), 6.8 µH, 9.2 A, Shielded, 12.8 A, XAL7070"
 			(at 157.48 62.23 0)
 			(effects
 				(font

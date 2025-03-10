@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "GMSL Deserializer")
-		(date "2024-06-17")
-		(rev "1.0.2")
+		(date "2025-03-10")
+		(rev "1.0.3")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
@@ -95,16 +95,6 @@
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 22.86 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 					(justify left bottom)
 					(hide yes)
@@ -4424,7 +4414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
 			(at 353.06 222.25 0)
 			(effects
 				(font
@@ -4541,7 +4531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
 			(at 353.06 228.6 0)
 			(effects
 				(font
@@ -4752,7 +4742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
 			(at 353.06 236.22 0)
 			(effects
 				(font
@@ -4869,7 +4859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 6 mm, M2.5 Thread, WA-SMSI Series"
 			(at 353.06 242.57 0)
 			(effects
 				(font

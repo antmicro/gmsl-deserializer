@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "GMSL Deserializer")
-		(date "2024-06-17")
-		(rev "1.0.2")
+		(date "2025-03-10")
+		(rev "1.0.3")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
@@ -136,16 +136,6 @@
 			)
 			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -360,16 +350,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -576,16 +556,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC, CERAMIC"
 				(at 0 0 0)
 				(effects
@@ -784,16 +754,6 @@
 			)
 			(property "Dielectric" ""
 				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2463,16 +2423,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -2648,16 +2598,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2849,16 +2789,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -3034,16 +2964,6 @@
 			)
 			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3235,16 +3155,6 @@
 					(hide yes)
 				)
 			)
-			(property "Public" "False"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
@@ -3414,16 +3324,6 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-				)
-			)
-			(property "Public" "False"
-				(at 22.86 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SMT, CERAMIC, OSCILLATOR"
@@ -9391,6 +9291,7 @@
 	)
 	(label "VTERM"
 		(at 335.28 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9401,6 +9302,7 @@
 	)
 	(label "CFG1"
 		(at 273.05 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9411,6 +9313,7 @@
 	)
 	(label "SIOB_N"
 		(at 271.78 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9421,6 +9324,7 @@
 	)
 	(label "CSI0.CLK_P"
 		(at 318.77 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9431,6 +9335,7 @@
 	)
 	(label "XRES"
 		(at 270.51 196.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9441,6 +9346,7 @@
 	)
 	(label "VDDIO"
 		(at 121.92 171.45 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9451,6 +9357,7 @@
 	)
 	(label "MFP0"
 		(at 273.05 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9461,6 +9368,7 @@
 	)
 	(label "CSI0.D3_N"
 		(at 318.77 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9471,6 +9379,7 @@
 	)
 	(label "CSI1.D3_N"
 		(at 318.77 194.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9481,6 +9390,7 @@
 	)
 	(label "MFP7"
 		(at 273.05 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9491,6 +9401,7 @@
 	)
 	(label "SIOB_N"
 		(at 134.62 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9501,6 +9412,7 @@
 	)
 	(label "CAP_VDD"
 		(at 252.73 194.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9511,6 +9423,7 @@
 	)
 	(label "SIOC_P"
 		(at 271.78 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9521,6 +9434,7 @@
 	)
 	(label "SIOB_P"
 		(at 271.78 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9531,6 +9445,7 @@
 	)
 	(label "SIOA_N"
 		(at 271.78 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9541,6 +9456,7 @@
 	)
 	(label "CSI1.CLK_N"
 		(at 318.77 199.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9551,6 +9467,7 @@
 	)
 	(label "CSI1.D0_N"
 		(at 318.77 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9561,6 +9478,7 @@
 	)
 	(label "VDD"
 		(at 264.16 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9571,6 +9489,7 @@
 	)
 	(label "SIOC_N"
 		(at 271.78 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9581,6 +9500,7 @@
 	)
 	(label "SIOD_N"
 		(at 134.62 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9591,6 +9511,7 @@
 	)
 	(label "MFP1"
 		(at 273.05 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9601,6 +9522,7 @@
 	)
 	(label "SIOD_P"
 		(at 271.78 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9611,6 +9533,7 @@
 	)
 	(label "CSI1.D0_P"
 		(at 318.77 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9621,6 +9544,7 @@
 	)
 	(label "MFP4"
 		(at 273.05 171.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9631,6 +9555,7 @@
 	)
 	(label "MFP5"
 		(at 273.05 173.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9641,6 +9566,7 @@
 	)
 	(label "X1"
 		(at 278.13 186.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9651,6 +9577,7 @@
 	)
 	(label "CFG0"
 		(at 273.05 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9661,6 +9588,7 @@
 	)
 	(label "X1"
 		(at 77.47 170.18 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9671,6 +9599,7 @@
 	)
 	(label "SIOB_P"
 		(at 134.62 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9681,6 +9610,7 @@
 	)
 	(label "X2"
 		(at 91.44 170.18 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9691,6 +9621,7 @@
 	)
 	(label "SIOA_N"
 		(at 134.62 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9701,6 +9632,7 @@
 	)
 	(label "CSI1.D1_P"
 		(at 318.77 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9711,6 +9643,7 @@
 	)
 	(label "VDD_1.8V"
 		(at 262.89 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9721,6 +9654,7 @@
 	)
 	(label "SIOA_P"
 		(at 134.62 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9731,6 +9665,7 @@
 	)
 	(label "SIOD_N"
 		(at 271.78 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9741,6 +9676,7 @@
 	)
 	(label "CSI0.D2_P"
 		(at 318.77 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9751,6 +9687,7 @@
 	)
 	(label "CFG1"
 		(at 170.18 185.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9761,6 +9698,7 @@
 	)
 	(label "PWDNB"
 		(at 318.77 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9771,6 +9709,7 @@
 	)
 	(label "SIOA_P"
 		(at 271.78 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9781,6 +9720,7 @@
 	)
 	(label "CSI0.D1_N"
 		(at 318.77 146.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9791,6 +9731,7 @@
 	)
 	(label "CSI1.CLK_P"
 		(at 318.77 196.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9801,6 +9742,7 @@
 	)
 	(label "CSI0.CLK_N"
 		(at 318.77 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9811,6 +9753,7 @@
 	)
 	(label "CSI0.D3_P"
 		(at 318.77 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9821,6 +9764,7 @@
 	)
 	(label "X2_R"
 		(at 91.44 182.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9831,6 +9775,7 @@
 	)
 	(label "SIOC_N"
 		(at 134.62 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9841,6 +9786,7 @@
 	)
 	(label "CSI1.D1_N"
 		(at 318.77 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9851,6 +9797,7 @@
 	)
 	(label "CSI0.D0_N"
 		(at 318.77 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9861,6 +9808,7 @@
 	)
 	(label "CSI1.D3_P"
 		(at 318.77 191.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9871,6 +9819,7 @@
 	)
 	(label "CSI0.D2_N"
 		(at 318.77 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9881,6 +9830,7 @@
 	)
 	(label "MFP2"
 		(at 273.05 166.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9891,6 +9841,7 @@
 	)
 	(label "CSI1.D2_P"
 		(at 318.77 186.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9901,6 +9852,7 @@
 	)
 	(label "CSI0.D0_P"
 		(at 318.77 138.43 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9911,6 +9863,7 @@
 	)
 	(label "X2"
 		(at 278.13 189.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9921,6 +9874,7 @@
 	)
 	(label "MFP8"
 		(at 273.05 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9931,6 +9885,7 @@
 	)
 	(label "CSI0.D1_P"
 		(at 318.77 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9941,6 +9896,7 @@
 	)
 	(label "VDDIO"
 		(at 162.56 171.45 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9951,6 +9907,7 @@
 	)
 	(label "MFP3"
 		(at 273.05 168.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9961,6 +9918,7 @@
 	)
 	(label "CFG0"
 		(at 129.54 185.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9971,6 +9929,7 @@
 	)
 	(label "SIOC_P"
 		(at 134.62 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9981,6 +9940,7 @@
 	)
 	(label "SIOD_P"
 		(at 134.62 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9991,6 +9951,7 @@
 	)
 	(label "CSI1.D2_N"
 		(at 318.77 189.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10024,6 +9985,7 @@
 	(hierarchical_label "MFP[0..8]"
 		(shape bidirectional)
 		(at 264.16 185.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10035,6 +9997,7 @@
 	(hierarchical_label "SIOCP"
 		(shape bidirectional)
 		(at 63.5 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10046,6 +10009,7 @@
 	(hierarchical_label "CSI0{CSI}"
 		(shape output)
 		(at 337.82 165.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10057,6 +10021,7 @@
 	(hierarchical_label "CSI1{CSI}"
 		(shape output)
 		(at 337.82 203.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10068,6 +10033,7 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 323.85 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10079,6 +10045,7 @@
 	(hierarchical_label "SIOAP"
 		(shape bidirectional)
 		(at 63.5 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10090,6 +10057,7 @@
 	(hierarchical_label "SIODP"
 		(shape bidirectional)
 		(at 63.5 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10101,6 +10069,7 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 323.85 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10112,6 +10081,7 @@
 	(hierarchical_label "SIOBP"
 		(shape bidirectional)
 		(at 63.5 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10360,7 +10330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 33 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, MC"
 			(at 77.47 187.96 0)
 			(effects
 				(font
@@ -10792,7 +10762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 49.9 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 106.68 0)
 			(effects
 				(font
@@ -10931,7 +10901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 86.36 96.52 0)
 			(effects
 				(font
@@ -11175,7 +11145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 223.52 121.92 0)
 			(effects
 				(font
@@ -11325,7 +11295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 91.44 99.06 0)
 			(effects
 				(font
@@ -11569,7 +11539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 252.73 200.66 0)
 			(effects
 				(font
@@ -11719,7 +11689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 91.44 114.3 0)
 			(effects
 				(font
@@ -11963,7 +11933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 370.84 95.25 0)
 			(effects
 				(font
@@ -12113,7 +12083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, 25 MHz, SMD, 3.2mm x 2.5mm, 30 ppm, 18 pF, 20 ppm, ABM8G"
 			(at 81.28 182.88 0)
 			(effects
 				(font
@@ -12532,7 +12502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 49.9 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 99.06 0)
 			(effects
 				(font
@@ -12671,7 +12641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 370.84 116.84 0)
 			(effects
 				(font
@@ -12887,7 +12857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 91.44 106.68 0)
 			(effects
 				(font
@@ -13037,7 +13007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 86.36 104.14 0)
 			(effects
 				(font
@@ -13187,7 +13157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 121.92 191.77 0)
 			(effects
 				(font
@@ -13421,7 +13391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 91.44 177.8 0)
 			(effects
 				(font
@@ -13571,7 +13541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 251.46 121.92 0)
 			(effects
 				(font
@@ -13815,7 +13785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 242.57 121.92 0)
 			(effects
 				(font
@@ -13965,7 +13935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 91.44 121.92 0)
 			(effects
 				(font
@@ -14115,7 +14085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 243.84 200.66 0)
 			(effects
 				(font
@@ -14265,7 +14235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 223.52 102.87 0)
 			(effects
 				(font
@@ -14415,7 +14385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 261.62 121.92 0)
 			(effects
 				(font
@@ -14565,7 +14535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 162.56 191.77 0)
 			(effects
 				(font
@@ -14705,7 +14675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 351.79 102.87 0)
 			(effects
 				(font
@@ -14855,7 +14825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 360.68 102.87 0)
 			(effects
 				(font
@@ -15005,7 +14975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 326.39 110.49 0)
 			(effects
 				(font
@@ -15238,7 +15208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 15kV, DFN-10, 5 V, 0.5 pF"
 			(at 107.95 127 0)
 			(effects
 				(font
@@ -15382,7 +15352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 33 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, MC"
 			(at 91.44 187.96 0)
 			(effects
 				(font
@@ -15532,7 +15502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADI GMSL2/1 Tunneling Quad Deserializer 6GHz with 2x4 or 4x2 MIPI DPHY/CPHY Outputs"
 			(at 280.67 113.03 0)
 			(effects
 				(font
@@ -15815,7 +15785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 236.22 200.66 0)
 			(effects
 				(font
@@ -16060,7 +16030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 232.41 102.87 0)
 			(effects
 				(font
@@ -16304,7 +16274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 214.63 114.3 0)
 			(effects
 				(font
@@ -16643,7 +16613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 242.57 102.87 0)
 			(effects
 				(font
@@ -16982,7 +16952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 86.36 119.38 0)
 			(effects
 				(font
@@ -17226,7 +17196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 361.95 124.46 0)
 			(effects
 				(font
@@ -17376,7 +17346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 49.9 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 121.92 0)
 			(effects
 				(font
@@ -17609,7 +17579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 86.36 111.76 0)
 			(effects
 				(font
@@ -17853,7 +17823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 214.63 95.25 0)
 			(effects
 				(font
@@ -18003,7 +17973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 15kV, DFN-10, 5 V, 0.5 pF"
 			(at 127 127 0)
 			(effects
 				(font
@@ -18242,7 +18212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 80.6 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
 			(at 121.92 182.88 0)
 			(effects
 				(font
@@ -18391,7 +18361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 261.62 102.87 0)
 			(effects
 				(font
@@ -18794,7 +18764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 227.33 200.66 0)
 			(effects
 				(font
@@ -19132,7 +19102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 353.06 124.46 0)
 			(effects
 				(font
@@ -19282,7 +19252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 80.6 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
 			(at 162.56 182.88 0)
 			(effects
 				(font
@@ -19808,7 +19778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 251.46 102.87 0)
 			(effects
 				(font
@@ -20052,7 +20022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 232.41 121.92 0)
 			(effects
 				(font
@@ -20202,7 +20172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 402 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 265.43 205.74 0)
 			(effects
 				(font
@@ -20342,7 +20312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 342.9 124.46 0)
 			(effects
 				(font
@@ -20492,7 +20462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 49.9 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 114.3 0)
 			(effects
 				(font
@@ -20631,7 +20601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
 			(at 341.63 102.87 0)
 			(effects
 				(font
