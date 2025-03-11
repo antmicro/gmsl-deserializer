@@ -18285,15 +18285,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 121.92 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "811a3c9b-46a7-4397-bc73-0bbbecb249f3")
 		)
@@ -19322,15 +19313,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 162.56 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)

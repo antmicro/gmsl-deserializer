@@ -17373,15 +17373,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 116.84 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "85bd484e-230d-492e-94ce-7bb2ad80816d")
 		)
@@ -19327,15 +19318,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "56b5d9b8-4787-441b-91b3-8a8d501485a8")
 		)
@@ -20955,15 +20937,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 190.5 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d5436554-79d0-4d6a-b4ad-10a077bb87b1")
 		)
@@ -21696,15 +21669,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 289.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -23050,15 +23014,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
