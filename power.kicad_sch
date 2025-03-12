@@ -14015,7 +14015,6 @@
 	)
 	(label "FB_1V8"
 		(at 309.88 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14026,7 +14025,6 @@
 	)
 	(label "FB_1V2"
 		(at 309.88 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14037,7 +14035,6 @@
 	)
 	(label "EN_1V2"
 		(at 280.67 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14048,7 +14045,6 @@
 	)
 	(label "FFC_5V_EN"
 		(at 347.98 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14059,7 +14055,6 @@
 	)
 	(label "OUT_1V8"
 		(at 367.03 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14070,7 +14065,6 @@
 	)
 	(label "FFC_5V_ISET"
 		(at 374.65 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14081,7 +14075,6 @@
 	)
 	(label "SW_1V8"
 		(at 309.88 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14092,7 +14085,6 @@
 	)
 	(label "EN_12V"
 		(at 189.23 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14103,7 +14095,6 @@
 	)
 	(label "OUT_12V"
 		(at 238.76 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14114,7 +14105,6 @@
 	)
 	(label "OUT_12V"
 		(at 275.59 240.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14125,7 +14115,6 @@
 	)
 	(label "OUT_1V2"
 		(at 367.03 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14136,7 +14125,6 @@
 	)
 	(label "EN_1V8"
 		(at 280.67 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14147,7 +14135,6 @@
 	)
 	(label "FFC_5V_EN"
 		(at 326.39 223.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14158,7 +14145,6 @@
 	)
 	(label "OUT_1V8"
 		(at 340.36 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14169,7 +14155,6 @@
 	)
 	(label "SW_12V"
 		(at 214.63 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14180,7 +14165,6 @@
 	)
 	(label "FB_12V"
 		(at 214.63 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14191,7 +14175,6 @@
 	)
 	(label "OUT_1V2"
 		(at 340.36 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14202,7 +14185,6 @@
 	)
 	(label "FFC_5V_EN"
 		(at 53.34 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14213,7 +14195,6 @@
 	)
 	(label "SW_1V2"
 		(at 309.88 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14224,7 +14205,6 @@
 	)
 	(label "FFC_5V_FLG"
 		(at 347.98 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14236,7 +14216,6 @@
 	(hierarchical_label "FFC_5V"
 		(shape input)
 		(at 330.2 217.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14248,7 +14227,6 @@
 	(hierarchical_label "PoCA"
 		(shape output)
 		(at 168.91 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14260,7 +14238,6 @@
 	(hierarchical_label "FFC_5V"
 		(shape input)
 		(at 309.88 215.9 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14272,7 +14249,6 @@
 	(hierarchical_label "DC_IN"
 		(shape input)
 		(at 30.48 224.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14284,7 +14260,6 @@
 	(hierarchical_label "PoCD"
 		(shape output)
 		(at 168.91 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14296,7 +14271,6 @@
 	(hierarchical_label "PoCB"
 		(shape output)
 		(at 168.91 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14308,7 +14282,6 @@
 	(hierarchical_label "PoCC"
 		(shape output)
 		(at 168.91 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26524,7 +26497,7 @@
 		(at 382.27 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -33691,7 +33664,7 @@
 		(at 382.27 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

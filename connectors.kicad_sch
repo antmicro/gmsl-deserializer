@@ -11795,7 +11795,6 @@
 	)
 	(label "FFC_3V3"
 		(at 259.08 199.39 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11806,7 +11805,6 @@
 	)
 	(label "VSYNC_CAM0"
 		(at 106.68 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11817,7 +11815,6 @@
 	)
 	(label "CSI0.CLK_P"
 		(at 331.47 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11828,7 +11825,6 @@
 	)
 	(label "MFP1"
 		(at 156.21 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11839,7 +11835,6 @@
 	)
 	(label "MFP1"
 		(at 53.34 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11850,7 +11845,6 @@
 	)
 	(label "MFP0"
 		(at 156.21 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11861,7 +11855,6 @@
 	)
 	(label "CSI0.D1_N"
 		(at 331.47 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11872,7 +11865,6 @@
 	)
 	(label "CSI1.CLK_N"
 		(at 331.47 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11883,7 +11875,6 @@
 	)
 	(label "MFP3"
 		(at 53.34 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11894,7 +11885,6 @@
 	)
 	(label "SCL_CAM0"
 		(at 337.82 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11905,7 +11895,6 @@
 	)
 	(label "MFP5"
 		(at 53.34 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11916,7 +11905,6 @@
 	)
 	(label "VSYNC_CAM1"
 		(at 261.62 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11927,7 +11915,6 @@
 	)
 	(label "CSI0.CLK_N"
 		(at 331.47 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11938,7 +11925,6 @@
 	)
 	(label "SCL_CAM"
 		(at 201.93 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11949,7 +11935,6 @@
 	)
 	(label "FFC_3V3"
 		(at 190.5 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11960,7 +11945,6 @@
 	)
 	(label "MFP7"
 		(at 53.34 203.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11971,7 +11955,6 @@
 	)
 	(label "VSYNC_CAM0"
 		(at 261.62 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11982,7 +11965,6 @@
 	)
 	(label "CSI1.D0_N"
 		(at 331.47 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11993,7 +11975,6 @@
 	)
 	(label "CSI1.D3_N"
 		(at 331.47 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12004,7 +11985,6 @@
 	)
 	(label "CSI0.D2_P"
 		(at 331.47 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12015,7 +11995,6 @@
 	)
 	(label "SDA_CAM1"
 		(at 337.82 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12026,7 +12005,6 @@
 	)
 	(label "SCL_CAM"
 		(at 292.1 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12037,7 +12015,6 @@
 	)
 	(label "CSI0.D2_N"
 		(at 331.47 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12048,7 +12025,6 @@
 	)
 	(label "SDA_CAM0"
 		(at 337.82 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12059,7 +12035,6 @@
 	)
 	(label "SCL_CAM1"
 		(at 337.82 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12070,7 +12045,6 @@
 	)
 	(label "CSI0.D0_P"
 		(at 331.47 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12081,7 +12055,6 @@
 	)
 	(label "CSI1.CLK_P"
 		(at 331.47 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12092,7 +12065,6 @@
 	)
 	(label "CSI0.D1_P"
 		(at 331.47 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12103,7 +12075,6 @@
 	)
 	(label "MFP8"
 		(at 53.34 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12114,7 +12085,6 @@
 	)
 	(label "SDA_CAM"
 		(at 201.93 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12125,7 +12095,6 @@
 	)
 	(label "MFP7"
 		(at 101.6 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12136,7 +12105,6 @@
 	)
 	(label "FFC_3V3"
 		(at 294.64 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12147,7 +12115,6 @@
 	)
 	(label "CSI1.D3_P"
 		(at 331.47 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12158,7 +12125,6 @@
 	)
 	(label "CSI1.D1_N"
 		(at 331.47 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12169,7 +12135,6 @@
 	)
 	(label "CSI0.D3_P"
 		(at 331.47 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12180,7 +12145,6 @@
 	)
 	(label "SDA_CAM"
 		(at 292.1 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12191,7 +12155,6 @@
 	)
 	(label "CSI1.D1_P"
 		(at 331.47 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12202,7 +12165,6 @@
 	)
 	(label "DC_UNFUSED"
 		(at 29.21 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12213,7 +12175,6 @@
 	)
 	(label "CSI1.D2_P"
 		(at 331.47 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12224,7 +12185,6 @@
 	)
 	(label "CSI1.D2_N"
 		(at 331.47 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12235,7 +12195,6 @@
 	)
 	(label "MFP3"
 		(at 210.82 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12246,7 +12205,6 @@
 	)
 	(label "MFP8"
 		(at 101.6 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12257,7 +12215,6 @@
 	)
 	(label "MFP4"
 		(at 20.32 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12268,7 +12225,6 @@
 	)
 	(label "CSI0.D0_N"
 		(at 331.47 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12279,7 +12235,6 @@
 	)
 	(label "MFP0"
 		(at 53.34 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12290,7 +12245,6 @@
 	)
 	(label "FFC_3V3"
 		(at 175.26 105.41 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12301,7 +12255,6 @@
 	)
 	(label "MFP4"
 		(at 53.34 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12312,7 +12265,6 @@
 	)
 	(label "CSI0.D3_N"
 		(at 331.47 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12323,7 +12275,6 @@
 	)
 	(label "MFP2"
 		(at 210.82 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12334,7 +12285,6 @@
 	)
 	(label "VSYNC_CAM1"
 		(at 161.29 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12345,7 +12295,6 @@
 	)
 	(label "DC_UNFUSED"
 		(at 78.74 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12356,7 +12305,6 @@
 	)
 	(label "CSI1.D0_P"
 		(at 331.47 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12367,7 +12315,6 @@
 	)
 	(label "MFP2"
 		(at 53.34 193.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12401,7 +12348,6 @@
 	(hierarchical_label "SIOCP"
 		(shape bidirectional)
 		(at 147.32 233.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12413,7 +12359,6 @@
 	(hierarchical_label "CSI1{CSI}"
 		(shape input)
 		(at 322.58 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12425,7 +12370,6 @@
 	(hierarchical_label "PoCD"
 		(shape input)
 		(at 151.13 256.54 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12437,7 +12381,6 @@
 	(hierarchical_label "PoCB"
 		(shape input)
 		(at 151.13 209.55 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12449,7 +12392,6 @@
 	(hierarchical_label "CSI0{CSI}"
 		(shape input)
 		(at 322.58 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12461,7 +12403,6 @@
 	(hierarchical_label "SIOAP"
 		(shape bidirectional)
 		(at 147.32 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12473,7 +12414,6 @@
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 101.6 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12485,7 +12425,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 101.6 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12497,7 +12436,6 @@
 	(hierarchical_label "FFC_5V"
 		(shape output)
 		(at 303.53 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12509,7 +12447,6 @@
 	(hierarchical_label "FFC_5V"
 		(shape output)
 		(at 266.7 207.01 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12521,7 +12458,6 @@
 	(hierarchical_label "MFP[0..8]"
 		(shape bidirectional)
 		(at 39.37 209.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12533,7 +12469,6 @@
 	(hierarchical_label "SIOBP"
 		(shape bidirectional)
 		(at 147.32 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12545,7 +12480,6 @@
 	(hierarchical_label "PoCA"
 		(shape input)
 		(at 151.13 185.42 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12557,7 +12491,6 @@
 	(hierarchical_label "SIODP"
 		(shape bidirectional)
 		(at 147.32 257.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12569,7 +12502,6 @@
 	(hierarchical_label "DC_IN"
 		(shape output)
 		(at 73.66 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12581,7 +12513,6 @@
 	(hierarchical_label "PoCC"
 		(shape input)
 		(at 151.13 232.41 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23131,7 +23062,7 @@
 		(at 35.56 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
