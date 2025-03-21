@@ -1,0 +1,708 @@
+{
+  "nets": [
+    {
+      "name": [
+        "/Deserializer/SIOB_P",
+        "/Deserializer/SIOB_N"
+      ],
+      "length": [
+        "4.300",
+        "4.060"
+      ],
+      "width": [
+        "0.200",
+        "0.200"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Deserializer_SIOB_Diff/Z_1.png",
+          "./Deserializer_SIOB_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Deserializer_SIOB_Diff/S_11_smith.png",
+          "./Deserializer_SIOB_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Deserializer_SIOB_Diff/S_x1.png",
+          "./Deserializer_SIOB_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Deserializer_SIOB_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Deserializer_SIOB_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Deserializer_SIOB_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Deserializer_SIOB_Diff/s_param_and_smith_1.png",
+          "./Deserializer_SIOB_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Deserializer_SIOB_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Deserializer/SIOD_P",
+        "/Deserializer/SIOD_N"
+      ],
+      "length": [
+        "4.098",
+        "3.859"
+      ],
+      "width": [
+        "0.200",
+        "0.200"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Deserializer_SIOD_Diff/Z_1.png",
+          "./Deserializer_SIOD_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Deserializer_SIOD_Diff/S_11_smith.png",
+          "./Deserializer_SIOD_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Deserializer_SIOD_Diff/S_x1.png",
+          "./Deserializer_SIOD_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Deserializer_SIOD_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Deserializer_SIOD_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Deserializer_SIOD_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Deserializer_SIOD_Diff/s_param_and_smith_1.png",
+          "./Deserializer_SIOD_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Deserializer_SIOD_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Deserializer/SIOA_P",
+        "/Deserializer/SIOA_N"
+      ],
+      "length": [
+        "4.222",
+        "3.997"
+      ],
+      "width": [
+        "0.200",
+        "0.200"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Deserializer_SIOA_Diff/Z_1.png",
+          "./Deserializer_SIOA_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Deserializer_SIOA_Diff/S_11_smith.png",
+          "./Deserializer_SIOA_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Deserializer_SIOA_Diff/S_x1.png",
+          "./Deserializer_SIOA_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Deserializer_SIOA_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Deserializer_SIOA_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Deserializer_SIOA_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Deserializer_SIOA_Diff/s_param_and_smith_1.png",
+          "./Deserializer_SIOA_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Deserializer_SIOA_Diff/top_view.png"
+    },
+    {
+      "name": "/Connectors/PoCD",
+      "length": "39.155",
+      "width": "0.200",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Connectors_PoCD/Z_1.png"
+        ],
+        "smith": [
+          "./Connectors_PoCD/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_PoCD/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_PoCD/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Connectors_PoCD/top_view.png"
+    },
+    {
+      "name": "/Connectors/PoCB",
+      "length": "32.873",
+      "width": "0.200",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Connectors_PoCB/Z_1.png"
+        ],
+        "smith": [
+          "./Connectors_PoCB/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_PoCB/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_PoCB/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Connectors_PoCB/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI0.CLK_P",
+        "/Connectors/CSI0.CLK_N"
+      ],
+      "length": [
+        "64.323",
+        "64.243"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI0.CLK_Diff/Z_1.png",
+          "./Connectors_CSI0.CLK_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI0.CLK_Diff/S_11_smith.png",
+          "./Connectors_CSI0.CLK_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI0.CLK_Diff/S_x1.png",
+          "./Connectors_CSI0.CLK_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI0.CLK_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI0.CLK_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI0.CLK_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI0.CLK_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI0.CLK_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI0.CLK_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI0.D3_P",
+        "/Connectors/CSI0.D3_N"
+      ],
+      "length": [
+        "64.213",
+        "64.213"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI0.D3_Diff/Z_1.png",
+          "./Connectors_CSI0.D3_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI0.D3_Diff/S_11_smith.png",
+          "./Connectors_CSI0.D3_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI0.D3_Diff/S_x1.png",
+          "./Connectors_CSI0.D3_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI0.D3_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI0.D3_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI0.D3_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI0.D3_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI0.D3_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI0.D3_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI0.D2_P",
+        "/Connectors/CSI0.D2_N"
+      ],
+      "length": [
+        "64.255",
+        "64.244"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI0.D2_Diff/Z_1.png",
+          "./Connectors_CSI0.D2_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI0.D2_Diff/S_11_smith.png",
+          "./Connectors_CSI0.D2_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI0.D2_Diff/S_x1.png",
+          "./Connectors_CSI0.D2_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI0.D2_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI0.D2_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI0.D2_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI0.D2_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI0.D2_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI0.D2_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI1.D1_P",
+        "/Connectors/CSI1.D1_N"
+      ],
+      "length": [
+        "52.163",
+        "52.163"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI1.D1_Diff/Z_1.png",
+          "./Connectors_CSI1.D1_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI1.D1_Diff/S_11_smith.png",
+          "./Connectors_CSI1.D1_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI1.D1_Diff/S_x1.png",
+          "./Connectors_CSI1.D1_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI1.D1_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI1.D1_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI1.D1_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI1.D1_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI1.D1_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI1.D1_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Deserializer/SIOC_P",
+        "/Deserializer/SIOC_N"
+      ],
+      "length": [
+        "4.062",
+        "3.823"
+      ],
+      "width": [
+        "0.200",
+        "0.200"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Deserializer_SIOC_Diff/Z_1.png",
+          "./Deserializer_SIOC_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Deserializer_SIOC_Diff/S_11_smith.png",
+          "./Deserializer_SIOC_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Deserializer_SIOC_Diff/S_x1.png",
+          "./Deserializer_SIOC_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Deserializer_SIOC_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Deserializer_SIOC_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Deserializer_SIOC_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Deserializer_SIOC_Diff/s_param_and_smith_1.png",
+          "./Deserializer_SIOC_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Deserializer_SIOC_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI0.D0_P",
+        "/Connectors/CSI0.D0_N"
+      ],
+      "length": [
+        "64.288",
+        "64.233"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI0.D0_Diff/Z_1.png",
+          "./Connectors_CSI0.D0_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI0.D0_Diff/S_11_smith.png",
+          "./Connectors_CSI0.D0_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI0.D0_Diff/S_x1.png",
+          "./Connectors_CSI0.D0_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI0.D0_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI0.D0_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI0.D0_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI0.D0_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI0.D0_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI0.D0_Diff/top_view.png"
+    },
+    {
+      "name": "/Connectors/PoCA",
+      "length": "38.951",
+      "width": "0.200",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Connectors_PoCA/Z_1.png"
+        ],
+        "smith": [
+          "./Connectors_PoCA/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_PoCA/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_PoCA/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Connectors_PoCA/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI1.D3_P",
+        "/Connectors/CSI1.D3_N"
+      ],
+      "length": [
+        "52.140",
+        "52.163"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI1.D3_Diff/Z_1.png",
+          "./Connectors_CSI1.D3_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI1.D3_Diff/S_11_smith.png",
+          "./Connectors_CSI1.D3_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI1.D3_Diff/S_x1.png",
+          "./Connectors_CSI1.D3_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI1.D3_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI1.D3_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI1.D3_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI1.D3_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI1.D3_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI1.D3_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI0.D1_P",
+        "/Connectors/CSI0.D1_N"
+      ],
+      "length": [
+        "64.263",
+        "64.263"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI0.D1_Diff/Z_1.png",
+          "./Connectors_CSI0.D1_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI0.D1_Diff/S_11_smith.png",
+          "./Connectors_CSI0.D1_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI0.D1_Diff/S_x1.png",
+          "./Connectors_CSI0.D1_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI0.D1_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI0.D1_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI0.D1_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI0.D1_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI0.D1_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI0.D1_Diff/top_view.png"
+    },
+    {
+      "name": "/Connectors/PoCC",
+      "length": "33.182",
+      "width": "0.200",
+      "impedance": 50.0,
+      "diff": false,
+      "charts": {
+        "impedance": [
+          "./Connectors_PoCC/Z_1.png"
+        ],
+        "smith": [
+          "./Connectors_PoCC/S_11_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_PoCC/S_x1.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_PoCC/s_param_and_smith_1.png"
+        ]
+      },
+      "image": "./Connectors_PoCC/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI1.CLK_P",
+        "/Connectors/CSI1.CLK_N"
+      ],
+      "length": [
+        "52.284",
+        "52.158"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI1.CLK_Diff/Z_1.png",
+          "./Connectors_CSI1.CLK_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI1.CLK_Diff/S_11_smith.png",
+          "./Connectors_CSI1.CLK_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI1.CLK_Diff/S_x1.png",
+          "./Connectors_CSI1.CLK_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI1.CLK_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI1.CLK_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI1.CLK_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI1.CLK_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI1.CLK_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI1.CLK_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI1.D0_P",
+        "/Connectors/CSI1.D0_N"
+      ],
+      "length": [
+        "52.235",
+        "52.110"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI1.D0_Diff/Z_1.png",
+          "./Connectors_CSI1.D0_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI1.D0_Diff/S_11_smith.png",
+          "./Connectors_CSI1.D0_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI1.D0_Diff/S_x1.png",
+          "./Connectors_CSI1.D0_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI1.D0_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI1.D0_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI1.D0_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI1.D0_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI1.D0_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI1.D0_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "/Connectors/CSI1.D2_P",
+        "/Connectors/CSI1.D2_N"
+      ],
+      "length": [
+        "52.128",
+        "52.151"
+      ],
+      "width": [
+        "0.155",
+        "0.155"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./Connectors_CSI1.D2_Diff/Z_1.png",
+          "./Connectors_CSI1.D2_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./Connectors_CSI1.D2_Diff/S_11_smith.png",
+          "./Connectors_CSI1.D2_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./Connectors_CSI1.D2_Diff/S_x1.png",
+          "./Connectors_CSI1.D2_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./Connectors_CSI1.D2_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./Connectors_CSI1.D2_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./Connectors_CSI1.D2_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./Connectors_CSI1.D2_Diff/s_param_and_smith_1.png",
+          "./Connectors_CSI1.D2_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./Connectors_CSI1.D2_Diff/top_view.png"
+    }
+  ]
+}
