@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2139205a-07ca-46b4-87ae-144117573d50")
 	(paper "A3")
 	(title_block
@@ -13,8 +13,12 @@
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -217,10 +221,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroCapacitors0402:C_1u_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -423,10 +432,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroCapacitors0603:C_10u_25V_0603"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -629,9 +643,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "antmicroCoaxialConnectorsRF:Conn_FAKRA_59S2AQ-40MT5-Z_1"
-			(pin_names hide)
+		(symbol "antmicroCoaxialConnectorsRF:Conn_FAKRA_7-2287906-0"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -645,7 +662,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Conn_FAKRA_59S2AQ-40MT5-Z_1"
+			(property "Value" "Conn_FAKRA_7-2287906-0"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -656,7 +673,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1"
+			(property "Footprint" "antmicro-footprints:Conn_FAKRA_7-2287906-0"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -667,7 +684,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://products.rosenberger.com/radio-frequency/connectors/288881/59s2aq-40mt5-z-1-right-angle-plug-pcb-w.-housing"
+			(property "Datasheet" "https://www.te.com/en/product-7-2287906-0.html"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -678,7 +695,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "FAKRA GEN 2 PCB, SMD, Right angle plug, 50 Ohm, Z Key Code"
+			(property "Description" "FAKRA, 1 POS, ASSY EDGE MOUNT, 12OCLOCK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -687,7 +704,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "59S2AQ-40MT5-Z_1"
+			(property "MPN" "7-2287906-0"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -697,7 +714,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Rosenberger"
+			(property "Manufacturer" "TE Connectivity"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -748,7 +765,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_FAKRA_59S2AQ-40MT5-Z_1_1_1"
+			(symbol "Conn_FAKRA_7-2287906-0_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 4.572 0)
@@ -761,10 +778,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -1.778)
-					)
+				(arc
+					(start 3.302 0.508)
+					(mid 5.302 1.8083)
+					(end 6.858 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -774,9 +791,9 @@
 					)
 				)
 				(arc
-					(start 3.302 -0.508)
+					(start 6.858 0)
 					(mid 5.302 -1.808)
-					(end 6.858 0)
+					(end 3.302 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -796,10 +813,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 6.858 0)
-					(mid 5.302 1.8083)
-					(end 3.302 0.508)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -1.778)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -846,7 +863,8 @@
 				)
 				(pin passive line
 					(at 5.08 -5.08 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "3"
 						(effects
 							(font
@@ -864,7 +882,8 @@
 				)
 				(pin passive line
 					(at 5.08 -5.08 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "4"
 						(effects
 							(font
@@ -882,7 +901,8 @@
 				)
 				(pin passive line
 					(at 5.08 -5.08 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "5"
 						(effects
 							(font
@@ -899,6 +919,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroFCCConnectors:Conn_FFC_WE_68715014522"
 			(exclude_from_sim no)
@@ -1010,536 +1031,8 @@
 			)
 			(symbol "Conn_FFC_WE_68715014522_1_1"
 				(rectangle
-					(start 3.81 -124.333)
-					(end 5.08 -124.587)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -121.793)
-					(end 5.08 -122.047)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -119.253)
-					(end 5.08 -119.507)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -116.713)
-					(end 5.08 -116.967)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -114.173)
-					(end 5.08 -114.427)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -111.633)
-					(end 5.08 -111.887)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -109.093)
-					(end 5.08 -109.347)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -106.553)
-					(end 5.08 -106.807)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -104.013)
-					(end 5.08 -104.267)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -101.473)
-					(end 5.08 -101.727)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -98.933)
-					(end 5.08 -99.187)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -96.393)
-					(end 5.08 -96.647)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -93.853)
-					(end 5.08 -94.107)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -91.313)
-					(end 5.08 -91.567)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -88.773)
-					(end 5.08 -89.027)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -86.233)
-					(end 5.08 -86.487)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -83.693)
-					(end 5.08 -83.947)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -81.153)
-					(end 5.08 -81.407)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -78.613)
-					(end 5.08 -78.867)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -76.073)
-					(end 5.08 -76.327)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -73.533)
-					(end 5.08 -73.787)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -70.993)
-					(end 5.08 -71.247)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -68.453)
-					(end 5.08 -68.707)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -65.913)
-					(end 5.08 -66.167)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -63.373)
-					(end 5.08 -63.627)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -60.833)
-					(end 5.08 -61.087)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -58.293)
-					(end 5.08 -58.547)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -55.753)
-					(end 5.08 -56.007)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -53.213)
-					(end 5.08 -53.467)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -50.673)
-					(end 5.08 -50.927)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -48.133)
-					(end 5.08 -48.387)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -45.593)
-					(end 5.08 -45.847)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -43.053)
-					(end 5.08 -43.307)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -40.513)
-					(end 5.08 -40.767)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -37.973)
-					(end 5.08 -38.227)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -35.433)
-					(end 5.08 -35.687)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -32.893)
-					(end 5.08 -33.147)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -30.353)
-					(end 5.08 -30.607)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -27.813)
-					(end 5.08 -28.067)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -25.273)
-					(end 5.08 -25.527)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -22.733)
-					(end 5.08 -22.987)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -20.193)
-					(end 5.08 -20.447)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -17.653)
-					(end 5.08 -17.907)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -15.113)
-					(end 5.08 -15.367)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -12.573)
-					(end 5.08 -12.827)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 5.08 -10.287)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 5.08 -7.747)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 5.08 -5.207)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 5.08 -2.667)
+					(start 3.81 1.27)
+					(end 7.62 -132.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1560,8 +1053,536 @@
 					)
 				)
 				(rectangle
-					(start 3.81 1.27)
-					(end 7.62 -132.08)
+					(start 3.81 -2.413)
+					(end 5.08 -2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 5.08 -5.207)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 5.08 -7.747)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 5.08 -10.287)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -12.573)
+					(end 5.08 -12.827)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -15.113)
+					(end 5.08 -15.367)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -17.653)
+					(end 5.08 -17.907)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -20.193)
+					(end 5.08 -20.447)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -22.733)
+					(end 5.08 -22.987)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -25.273)
+					(end 5.08 -25.527)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -27.813)
+					(end 5.08 -28.067)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -30.353)
+					(end 5.08 -30.607)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -32.893)
+					(end 5.08 -33.147)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -35.433)
+					(end 5.08 -35.687)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -37.973)
+					(end 5.08 -38.227)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -40.513)
+					(end 5.08 -40.767)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -43.053)
+					(end 5.08 -43.307)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -45.593)
+					(end 5.08 -45.847)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -48.133)
+					(end 5.08 -48.387)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -50.673)
+					(end 5.08 -50.927)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -53.213)
+					(end 5.08 -53.467)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -55.753)
+					(end 5.08 -56.007)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -58.293)
+					(end 5.08 -58.547)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -60.833)
+					(end 5.08 -61.087)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -63.373)
+					(end 5.08 -63.627)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -65.913)
+					(end 5.08 -66.167)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -68.453)
+					(end 5.08 -68.707)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -70.993)
+					(end 5.08 -71.247)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -73.533)
+					(end 5.08 -73.787)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -76.073)
+					(end 5.08 -76.327)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -78.613)
+					(end 5.08 -78.867)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -81.153)
+					(end 5.08 -81.407)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -83.693)
+					(end 5.08 -83.947)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -86.233)
+					(end 5.08 -86.487)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -88.773)
+					(end 5.08 -89.027)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -91.313)
+					(end 5.08 -91.567)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -93.853)
+					(end 5.08 -94.107)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -96.393)
+					(end 5.08 -96.647)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -98.933)
+					(end 5.08 -99.187)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -101.473)
+					(end 5.08 -101.727)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -104.013)
+					(end 5.08 -104.267)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -106.553)
+					(end 5.08 -106.807)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -109.093)
+					(end 5.08 -109.347)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -111.633)
+					(end 5.08 -111.887)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -114.173)
+					(end 5.08 -114.427)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -116.713)
+					(end 5.08 -116.967)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -119.253)
+					(end 5.08 -119.507)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -121.793)
+					(end 5.08 -122.047)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -124.333)
+					(end 5.08 -124.587)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1581,6 +1602,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1769,24 +1934,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -48.26 0)
 					(length 3.81)
 					(name "~"
@@ -1959,24 +2106,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2165,24 +2294,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -99.06 0)
 					(length 3.81)
 					(name "~"
@@ -2363,24 +2474,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -124.46 0)
 					(length 3.81)
 					(name "~"
@@ -2391,78 +2484,6 @@
 						)
 					)
 					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2507,11 +2528,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroFuses:F_4A_1206"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.9906) hide)
+				(offset 0.9906)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2620,10 +2646,9 @@
 				)
 			)
 			(symbol "F_4A_1206_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 3.81 0)
-					)
+				(rectangle
+					(start 1.27 0.508)
+					(end 3.81 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -2632,9 +2657,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 1.27 0.508)
-					(end 3.81 -0.508)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2682,10 +2708,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2832,7 +2863,7 @@
 			(symbol "LED_G_0603_LTST-C190GKT_1_1"
 				(polyline
 					(pts
-						(xy 1.778 1.016) (xy 1.778 -1.016)
+						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2844,19 +2875,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
+						(xy 1.778 1.016) (xy 1.778 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -2876,6 +2895,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin passive line
@@ -2915,6 +2946,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroLogicBuffersDriversReceiversTransceivers:SN74LV1T125DBVR"
 			(exclude_from_sim no)
@@ -3025,10 +3057,9 @@
 				)
 			)
 			(symbol "SN74LV1T125DBVR_1_1"
-				(polyline
-					(pts
-						(xy 6.35 -1.27) (xy 6.35 -2.54)
-					)
+				(rectangle
+					(start 2.54 2.54)
+					(end 11.43 -9.525)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3039,7 +3070,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -3.81) (xy 9.652 -3.81)
+						(xy 5.08 -2.54) (xy 5.08 -5.08) (xy 7.62 -3.81) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -3075,19 +3106,8 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08) (xy 7.62 -3.81) (xy 5.08 -2.54)
+						(xy 6.35 -1.27) (xy 6.35 -2.54)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 2.54)
-					(end 11.43 -9.525)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3099,6 +3119,18 @@
 				(circle
 					(center 6.35 -2.794)
 					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 9.652 -3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3144,16 +3176,16 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 -7.62 180)
+					(at 13.97 0 180)
 					(length 2.54)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3180,16 +3212,16 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 0 180)
+					(at 13.97 -7.62 180)
 					(length 2.54)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3198,6 +3230,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroLogicTranslatorsLevelShifters:NTS0102_TSSOP"
 			(exclude_from_sim no)
@@ -3319,42 +3352,6 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "B_{2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 0 0)
 					(length 2.54)
@@ -3374,24 +3371,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "A_{2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "A_{1}"
@@ -3402,6 +3381,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "A_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3463,11 +3460,52 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "B_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_0R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3658,10 +3696,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_100R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3841,10 +3884,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_10k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4024,10 +4072,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_200R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4207,10 +4260,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_2k2_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4390,10 +4448,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_40k2_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4573,10 +4636,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_470R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4756,10 +4824,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTVSDiodes:ESD5B5_0ST1G"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4894,6 +4967,18 @@
 			(symbol "ESD5B5_0ST1G_1_1"
 				(polyline
 					(pts
+						(xy 1.016 -1.016) (xy 1.016 1.016) (xy 2.54 0) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.54 1.016) (xy 2.159 1.016)
 					)
 					(stroke
@@ -4926,18 +5011,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.016 1.016) (xy 2.54 0) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -4989,10 +5062,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTVSDiodes:SMF4L15A"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5212,9 +5290,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTestPoints:TP_0.75mm_SMD"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -5354,6 +5435,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7"
 			(pin_names
@@ -5469,31 +5551,19 @@
 			(symbol "DMG1012T-7_1_1"
 				(polyline
 					(pts
-						(xy 3.81 1.143) (xy 3.81 0.635)
+						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.143) (xy 3.81 1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 2.032)
+						(xy 3.81 4.445) (xy 3.81 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -5517,7 +5587,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 4.445) (xy 3.81 3.429)
+						(xy 3.81 2.54) (xy 3.81 2.032)
 					)
 					(stroke
 						(width 0.254)
@@ -5529,7 +5599,19 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 1.143) (xy 3.81 1.143)
+						(xy 3.81 2.54) (xy 4.572 3.048) (xy 4.572 2.032) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.143) (xy 3.81 1.651)
 					)
 					(stroke
 						(width 0.254)
@@ -5541,8 +5623,19 @@
 				)
 				(polyline
 					(pts
-						(xy 7.874 3.048) (xy 6.858 3.048)
+						(xy 3.81 1.143) (xy 3.81 0.635)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 5.08 2.54)
+					(radius 3.302)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5553,19 +5646,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.27) (xy 6.35 2.54) (xy 3.81 2.54)
+						(xy 6.223 0.635) (xy 7.366 0.635) (xy 7.366 3.937) (xy 7.366 4.445) (xy 6.223 4.445)
 					)
 					(stroke
 						(width 0.254)
@@ -5587,45 +5668,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 4.572 3.048) (xy 4.572 2.032) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.366 3.048) (xy 6.858 2.286) (xy 7.874 2.286) (xy 7.366 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.223 0.635) (xy 7.366 0.635) (xy 7.366 3.937) (xy 7.366 4.445) (xy 6.223 4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 5.08 2.54)
-					(radius 3.302)
+					(center 6.35 4.445)
+					(radius 0.127)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5634,9 +5679,10 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 6.35 0.635)
-					(radius 0.127)
+				(polyline
+					(pts
+						(xy 6.35 1.143) (xy 3.81 1.143)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5657,8 +5703,44 @@
 					)
 				)
 				(circle
-					(center 6.35 4.445)
+					(center 6.35 0.635)
 					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.27) (xy 6.35 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 3.048) (xy 6.858 2.286) (xy 7.874 2.286) (xy 7.366 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 3.048) (xy 6.858 3.048)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5686,24 +5768,6 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -2.54 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 6.35 7.62 270)
 					(length 2.54)
 					(name "D"
@@ -5721,7 +5785,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 6.35 -2.54 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroWire2BoardConnectors:Molex_Nano-Fit_1x2_SMD_1054301202"
 			(exclude_from_sim no)
@@ -5833,19 +5916,8 @@
 			)
 			(symbol "Molex_Nano-Fit_1x2_SMD_1054301202_1_1"
 				(rectangle
-					(start 2.54 -5.334)
-					(end 4.1402 -4.699)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -2.794)
-					(end 4.1402 -2.159)
+					(start 2.54 2.54)
+					(end 6.35 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5866,8 +5938,19 @@
 					)
 				)
 				(rectangle
-					(start 2.54 2.54)
-					(end 6.35 -7.62)
+					(start 2.54 -2.794)
+					(end 4.1402 -2.159)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -5.334)
+					(end 4.1402 -4.699)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5931,11 +6014,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:+1V8"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6028,7 +6116,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -6040,7 +6128,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -6052,7 +6140,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+1V8"
 						(effects
 							(font
@@ -6069,11 +6158,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:+5V"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6166,7 +6260,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -6178,7 +6272,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -6207,11 +6301,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6321,12 +6420,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6408,7 +6512,86 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Multi-function pins"
+		(exclude_from_sim no)
+		(at 21.59 177.165 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "207ab7f5-9c7e-4655-a4a5-a0fc234c8639")
+	)
+	(text "CSI connector"
+		(exclude_from_sim no)
+		(at 304.165 63.5 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "61e2e765-8bb9-4305-9b08-d43da0104fcc")
+	)
+	(text "Fakra connectors"
+		(exclude_from_sim no)
+		(at 133.985 172.72 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b7051ed-4b24-463e-8c5d-249a4a81384f")
+	)
+	(text "Buffer gates"
+		(exclude_from_sim no)
+		(at 143.51 40.64 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "95c9c0eb-fa45-46dd-9386-44f075a462e7")
+	)
+	(text "Power connector"
+		(exclude_from_sim no)
+		(at 26.035 54.61 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2742fc6-4f0e-487d-a915-9bf8079e8c1b")
+	)
+	(text "Level shifter"
+		(exclude_from_sim no)
+		(at 137.795 101.6 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa766092-5f6f-45d4-bde5-d0dd86eb8622")
 	)
 	(junction
 		(at 289.56 157.48)
@@ -11715,84 +11898,6 @@
 			"AElFTkSuQmCC"
 		)
 	)
-	(text "Multi-function pins"
-		(exclude_from_sim no)
-		(at 21.59 177.165 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "207ab7f5-9c7e-4655-a4a5-a0fc234c8639")
-	)
-	(text "CSI connector"
-		(exclude_from_sim no)
-		(at 304.165 63.5 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "61e2e765-8bb9-4305-9b08-d43da0104fcc")
-	)
-	(text "Fakra connectors"
-		(exclude_from_sim no)
-		(at 133.985 172.72 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b7051ed-4b24-463e-8c5d-249a4a81384f")
-	)
-	(text "Buffer gates"
-		(exclude_from_sim no)
-		(at 143.51 40.64 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "95c9c0eb-fa45-46dd-9386-44f075a462e7")
-	)
-	(text "Power connector"
-		(exclude_from_sim no)
-		(at 26.035 54.61 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2742fc6-4f0e-487d-a915-9bf8079e8c1b")
-	)
-	(text "Level shifter"
-		(exclude_from_sim no)
-		(at 137.795 101.6 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa766092-5f6f-45d4-bde5-d0dd86eb8622")
-	)
 	(label "FFC_3V3"
 		(at 259.08 199.39 270)
 		(effects
@@ -13318,7 +13423,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_59S2AQ-40MT5-Z_1")
+		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_7-2287906-0")
 		(at 153.67 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13328,7 +13433,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cc0f04f-da00-454f-8744-975858af6db8")
 		(property "Reference" "J3"
-			(at 161.925 209.9066 0)
+			(at 162.56 209.9067 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,7 +13453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1"
+		(property "Footprint" "antmicro-footprints:Conn_FAKRA_7-2287906-0"
 			(at 173.99 220.98 0)
 			(effects
 				(font
@@ -13359,7 +13464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://products.rosenberger.com/radio-frequency/connectors/288881/59s2aq-40mt5-z-1-right-angle-plug-pcb-w.-housing"
+		(property "Datasheet" "https://www.te.com/en/product-7-2287906-0.html"
 			(at 173.99 223.52 0)
 			(effects
 				(font
@@ -13370,7 +13475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FAKRA GEN 2 PCB, SMD, Right angle plug, 50 Ohm, Z Key Code"
+		(property "Description" "FAKRA, 1 POS, ASSY EDGE MOUNT, 12OCLOCK"
 			(at 153.67 210.82 0)
 			(effects
 				(font
@@ -13379,8 +13484,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "59S2AQ-40MT5-Z_1"
-			(at 161.925 212.4466 0)
+		(property "MPN" "7-2287906-0"
+			(at 162.56 212.4467 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,7 +13494,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Rosenberger"
+		(property "Manufacturer" "TE Connectivity"
 			(at 173.99 228.6 0)
 			(effects
 				(font
@@ -15121,7 +15226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_59S2AQ-40MT5-Z_1")
+		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_7-2287906-0")
 		(at 153.67 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15131,7 +15236,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ca9974a-a88f-419e-b53d-2c2572b8d234")
 		(property "Reference" "J4"
-			(at 161.925 232.7666 0)
+			(at 162.56 232.7667 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15151,7 +15256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1"
+		(property "Footprint" "antmicro-footprints:Conn_FAKRA_7-2287906-0"
 			(at 173.99 243.84 0)
 			(effects
 				(font
@@ -15162,7 +15267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://products.rosenberger.com/radio-frequency/connectors/288881/59s2aq-40mt5-z-1-right-angle-plug-pcb-w.-housing"
+		(property "Datasheet" "https://www.te.com/en/product-7-2287906-0.html"
 			(at 173.99 246.38 0)
 			(effects
 				(font
@@ -15173,7 +15278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FAKRA GEN 2 PCB, SMD, Right angle plug, 50 Ohm, Z Key Code"
+		(property "Description" "FAKRA, 1 POS, ASSY EDGE MOUNT, 12OCLOCK"
 			(at 153.67 233.68 0)
 			(effects
 				(font
@@ -15182,8 +15287,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "59S2AQ-40MT5-Z_1"
-			(at 161.925 235.3066 0)
+		(property "MPN" "7-2287906-0"
+			(at 162.56 235.3067 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15192,7 +15297,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Rosenberger"
+		(property "Manufacturer" "TE Connectivity"
 			(at 173.99 251.46 0)
 			(effects
 				(font
@@ -15997,7 +16102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_59S2AQ-40MT5-Z_1")
+		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_7-2287906-0")
 		(at 153.67 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16007,7 +16112,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ee25888-500f-4d63-8366-e1b8539fa0ff")
 		(property "Reference" "J2"
-			(at 161.925 185.7766 0)
+			(at 162.56 185.7767 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16027,7 +16132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1"
+		(property "Footprint" "antmicro-footprints:Conn_FAKRA_7-2287906-0"
 			(at 173.99 196.85 0)
 			(effects
 				(font
@@ -16038,7 +16143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://products.rosenberger.com/radio-frequency/connectors/288881/59s2aq-40mt5-z-1-right-angle-plug-pcb-w.-housing"
+		(property "Datasheet" "https://www.te.com/en/product-7-2287906-0.html"
 			(at 173.99 199.39 0)
 			(effects
 				(font
@@ -16049,7 +16154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FAKRA GEN 2 PCB, SMD, Right angle plug, 50 Ohm, Z Key Code"
+		(property "Description" "FAKRA, 1 POS, ASSY EDGE MOUNT, 12OCLOCK"
 			(at 153.67 186.69 0)
 			(effects
 				(font
@@ -16058,8 +16163,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "59S2AQ-40MT5-Z_1"
-			(at 161.925 188.3166 0)
+		(property "MPN" "7-2287906-0"
+			(at 162.56 188.3167 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16068,7 +16173,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Rosenberger"
+		(property "Manufacturer" "TE Connectivity"
 			(at 173.99 204.47 0)
 			(effects
 				(font
@@ -18150,7 +18255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_59S2AQ-40MT5-Z_1")
+		(lib_id "antmicroCoaxialConnectorsRF:Conn_FAKRA_7-2287906-0")
 		(at 153.67 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18160,7 +18265,7 @@
 		(fields_autoplaced yes)
 		(uuid "755d865b-4010-431e-aa97-5cb819703a2b")
 		(property "Reference" "J5"
-			(at 161.925 256.8966 0)
+			(at 162.56 256.8967 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,7 +18285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Conn_FAKRA_59S2AQ-40MT5-Z_1"
+		(property "Footprint" "antmicro-footprints:Conn_FAKRA_7-2287906-0"
 			(at 173.99 267.97 0)
 			(effects
 				(font
@@ -18191,7 +18296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://products.rosenberger.com/radio-frequency/connectors/288881/59s2aq-40mt5-z-1-right-angle-plug-pcb-w.-housing"
+		(property "Datasheet" "https://www.te.com/en/product-7-2287906-0.html"
 			(at 173.99 270.51 0)
 			(effects
 				(font
@@ -18202,7 +18307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FAKRA GEN 2 PCB, SMD, Right angle plug, 50 Ohm, Z Key Code"
+		(property "Description" "FAKRA, 1 POS, ASSY EDGE MOUNT, 12OCLOCK"
 			(at 153.67 257.81 0)
 			(effects
 				(font
@@ -18211,8 +18316,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "59S2AQ-40MT5-Z_1"
-			(at 161.925 259.4366 0)
+		(property "MPN" "7-2287906-0"
+			(at 162.56 259.4367 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18221,7 +18326,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Rosenberger"
+		(property "Manufacturer" "TE Connectivity"
 			(at 173.99 275.59 0)
 			(effects
 				(font

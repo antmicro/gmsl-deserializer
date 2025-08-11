@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6c8ed07b-bd76-4fde-916b-286a1aa0c8da")
 	(paper "A3")
 	(title_block
@@ -162,11 +162,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -276,12 +281,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -363,6 +373,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -4992,6 +5003,10 @@
 	(sheet
 		(at 88.9 199.39)
 		(size 45.72 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5021,63 +5036,63 @@
 		)
 		(pin "PoCD" output
 			(at 134.62 212.09 0)
+			(uuid "1e555f28-fc63-419b-8a0c-75acf3a0db4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1e555f28-fc63-419b-8a0c-75acf3a0db4e")
 		)
 		(pin "PoCC" output
 			(at 134.62 209.55 0)
+			(uuid "4dcf1c66-c2d2-414e-a68b-73035616600c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4dcf1c66-c2d2-414e-a68b-73035616600c")
 		)
 		(pin "PoCA" output
 			(at 134.62 204.47 0)
+			(uuid "3c0263a1-b048-4b42-ad05-432d198a986a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3c0263a1-b048-4b42-ad05-432d198a986a")
 		)
 		(pin "PoCB" output
 			(at 134.62 207.01 0)
+			(uuid "93690b90-5a3f-43e4-a802-a1b599267aa0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "93690b90-5a3f-43e4-a802-a1b599267aa0")
 		)
 		(pin "DC_IN" input
 			(at 134.62 223.52 0)
+			(uuid "5a09f5cd-0ed9-470d-bfa8-871f93974851")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5a09f5cd-0ed9-470d-bfa8-871f93974851")
 		)
 		(pin "FFC_5V" input
 			(at 134.62 228.6 0)
+			(uuid "892336df-46d1-4798-aa30-b8ba1bf70083")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "892336df-46d1-4798-aa30-b8ba1bf70083")
 		)
 		(instances
 			(project "gmsl-deserializer"
@@ -5090,6 +5105,10 @@
 	(sheet
 		(at 207.01 199.39)
 		(size 45.72 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5119,93 +5138,93 @@
 		)
 		(pin "MFP[0..8]" bidirectional
 			(at 207.01 220.98 180)
+			(uuid "aabe0802-6749-4420-9272-0906314a0a15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aabe0802-6749-4420-9272-0906314a0a15")
 		)
 		(pin "CSI0{CSI}" output
 			(at 207.01 223.52 180)
+			(uuid "a344ae40-f692-40e9-a29e-011bd8a73425")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a344ae40-f692-40e9-a29e-011bd8a73425")
 		)
 		(pin "CSI1{CSI}" output
 			(at 207.01 226.06 180)
+			(uuid "b911da03-ea4b-4568-b487-ab5d1e261eda")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b911da03-ea4b-4568-b487-ab5d1e261eda")
 		)
 		(pin "SDA" bidirectional
 			(at 207.01 232.41 180)
+			(uuid "1978d53f-3f54-406e-b26c-e6ba44a5aceb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1978d53f-3f54-406e-b26c-e6ba44a5aceb")
 		)
 		(pin "SCL" input
 			(at 207.01 234.95 180)
+			(uuid "dd6644ed-f0ff-46f5-a9d0-dc4f00d64aa2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd6644ed-f0ff-46f5-a9d0-dc4f00d64aa2")
 		)
 		(pin "SIODP" bidirectional
 			(at 207.01 212.09 180)
+			(uuid "19e8fae0-23ac-4432-89a2-c1bbb518a362")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "19e8fae0-23ac-4432-89a2-c1bbb518a362")
 		)
 		(pin "SIOBP" bidirectional
 			(at 207.01 207.01 180)
+			(uuid "0651ab84-bf8a-49c0-8c0d-50e0eaf09494")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0651ab84-bf8a-49c0-8c0d-50e0eaf09494")
 		)
 		(pin "SIOAP" bidirectional
 			(at 207.01 204.47 180)
+			(uuid "39eb015e-4eb1-4ea1-9f98-b2e872b000b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "39eb015e-4eb1-4ea1-9f98-b2e872b000b5")
 		)
 		(pin "SIOCP" bidirectional
 			(at 207.01 209.55 180)
+			(uuid "22c32d7c-56df-4336-a110-079fd74cd8fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "22c32d7c-56df-4336-a110-079fd74cd8fc")
 		)
 		(instances
 			(project "gmsl-deserializer"
@@ -5218,6 +5237,10 @@
 	(sheet
 		(at 148.59 199.39)
 		(size 45.72 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5247,153 +5270,153 @@
 		)
 		(pin "MFP[0..8]" bidirectional
 			(at 194.31 220.98 0)
+			(uuid "d71f6841-5a5a-45f9-84e5-11309468bd60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d71f6841-5a5a-45f9-84e5-11309468bd60")
 		)
 		(pin "CSI0{CSI}" input
 			(at 194.31 223.52 0)
+			(uuid "d4b6b947-bbde-42c2-8020-e67f13f95d14")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d4b6b947-bbde-42c2-8020-e67f13f95d14")
 		)
 		(pin "CSI1{CSI}" input
 			(at 194.31 226.06 0)
+			(uuid "437753c5-9eec-4b1a-b6de-0a083cd797e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "437753c5-9eec-4b1a-b6de-0a083cd797e4")
 		)
 		(pin "SDA" bidirectional
 			(at 194.31 232.41 0)
+			(uuid "03d79093-802f-4804-87e3-b43e7a1ea722")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "03d79093-802f-4804-87e3-b43e7a1ea722")
 		)
 		(pin "SCL" output
 			(at 194.31 234.95 0)
+			(uuid "29455d88-ca5e-4960-b1aa-aff401adc8dd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "29455d88-ca5e-4960-b1aa-aff401adc8dd")
 		)
 		(pin "SIOCP" bidirectional
 			(at 194.31 209.55 0)
+			(uuid "3c14807b-6180-4747-bcae-6f8d303a925c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3c14807b-6180-4747-bcae-6f8d303a925c")
 		)
 		(pin "SIOAP" bidirectional
 			(at 194.31 204.47 0)
+			(uuid "737a1008-5852-43d1-b9af-58c403effe54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "737a1008-5852-43d1-b9af-58c403effe54")
 		)
 		(pin "SIOBP" bidirectional
 			(at 194.31 207.01 0)
+			(uuid "8b693434-34d4-4b0a-850b-08cf124b0f8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8b693434-34d4-4b0a-850b-08cf124b0f8c")
 		)
 		(pin "SIODP" bidirectional
 			(at 194.31 212.09 0)
+			(uuid "aab62e21-2684-405a-944c-6e0b286cd81d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aab62e21-2684-405a-944c-6e0b286cd81d")
 		)
 		(pin "PoCB" input
 			(at 148.59 207.01 180)
+			(uuid "3f8e6f52-6be6-45f8-95d6-06cb12070272")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3f8e6f52-6be6-45f8-95d6-06cb12070272")
 		)
 		(pin "PoCC" input
 			(at 148.59 209.55 180)
+			(uuid "ce92b3f9-5e9e-4a6b-b7eb-f98597fdda07")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ce92b3f9-5e9e-4a6b-b7eb-f98597fdda07")
 		)
 		(pin "PoCA" input
 			(at 148.59 204.47 180)
+			(uuid "8460e831-6c03-40d1-8927-844a941faeea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8460e831-6c03-40d1-8927-844a941faeea")
 		)
 		(pin "PoCD" input
 			(at 148.59 212.09 180)
+			(uuid "a7d1d51f-ced2-4f47-824c-ef9b1aeca8ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a7d1d51f-ced2-4f47-824c-ef9b1aeca8ad")
 		)
 		(pin "FFC_5V" output
 			(at 148.59 228.6 180)
+			(uuid "f05ac6c4-d261-4f1a-bff9-4bbb4ab4964d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f05ac6c4-d261-4f1a-bff9-4bbb4ab4964d")
 		)
 		(pin "DC_IN" output
 			(at 148.59 223.52 180)
+			(uuid "aa06f617-ba9b-4cdc-82b5-82c786e78559")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aa06f617-ba9b-4cdc-82b5-82c786e78559")
 		)
 		(instances
 			(project "gmsl-deserializer"
@@ -5408,4 +5431,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
