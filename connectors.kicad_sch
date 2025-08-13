@@ -6594,6 +6594,12 @@
 		(uuid "fa766092-5f6f-45d4-bde5-d0dd86eb8622")
 	)
 	(junction
+		(at 97.79 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05fc47c4-4902-4208-84ca-ce47f7ec0d14")
+	)
+	(junction
 		(at 289.56 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6654,6 +6660,12 @@
 		(uuid "3746d5af-b387-40cb-bacd-1835e5fedaae")
 	)
 	(junction
+		(at 323.85 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce9056f-0512-4836-8652-7f9b81ff746f")
+	)
+	(junction
 		(at 135.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6700,12 +6712,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c6d49ef-0990-4ced-9326-2581c022d163")
-	)
-	(junction
-		(at 322.58 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e0e96f3-3878-4d55-8ba0-a6a2df49fcd3")
 	)
 	(junction
 		(at 140.97 72.39)
@@ -6756,6 +6762,12 @@
 		(uuid "89c16800-12aa-483f-aee2-56a00d59146b")
 	)
 	(junction
+		(at 317.5 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "964ba624-ebec-436d-b898-c454a9adba30")
+	)
+	(junction
 		(at 289.56 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6772,6 +6784,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c94dc1b-57fe-44ac-8826-263226a5fec2")
+	)
+	(junction
+		(at 102.87 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ffdfbd6-da1a-445f-930c-489362d0f0a9")
 	)
 	(junction
 		(at 151.13 210.82)
@@ -6820,6 +6838,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b82d9d35-26ff-44df-acf9-301f8e1a3805")
+	)
+	(junction
+		(at 49.53 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd7575d0-0878-442b-8b70-fd761f52528c")
 	)
 	(junction
 		(at 190.5 124.46)
@@ -7567,6 +7591,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 200.66) (xy 323.85 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214d95e1-071d-4c3f-8766-bf7a6f50e231")
+	)
+	(wire
+		(pts
 			(xy 48.26 203.2) (xy 53.34 203.2)
 		)
 		(stroke
@@ -7644,6 +7678,16 @@
 			(type default)
 		)
 		(uuid "2f50c339-5dca-4591-a01e-cc90a17282ae")
+	)
+	(wire
+		(pts
+			(xy 97.79 130.81) (xy 97.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3210e238-795b-4970-b7eb-3b659dd4a87a")
 	)
 	(wire
 		(pts
@@ -8077,6 +8121,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 68.58) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2e37b2-2316-42f3-b32c-940cd29f7b50")
+	)
+	(wire
+		(pts
 			(xy 165.1 134.62) (xy 184.15 134.62)
 		)
 		(stroke
@@ -8134,6 +8188,16 @@
 			(type default)
 		)
 		(uuid "64aa38c5-06a0-4be3-abcc-d85fee810ddb")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c59fbb-6d1d-40ba-b75e-caee408e538d")
 	)
 	(wire
 		(pts
@@ -8227,6 +8291,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 69.85) (xy 55.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c01d5f0-4ff2-4c7d-997c-157ab36948dd")
+	)
+	(wire
+		(pts
 			(xy 261.62 157.48) (xy 279.4 157.48)
 		)
 		(stroke
@@ -8307,7 +8381,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 69.85) (xy 55.88 69.85)
+			(xy 45.72 69.85) (xy 49.53 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8374,6 +8448,16 @@
 			(type default)
 		)
 		(uuid "77f25d85-261e-404f-944f-0f54cfe45547")
+	)
+	(wire
+		(pts
+			(xy 102.87 130.81) (xy 102.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a13baef-e885-4934-86a8-5bb1a945b02b")
 	)
 	(bus
 		(pts
@@ -8524,6 +8608,16 @@
 			(type default)
 		)
 		(uuid "856e05cd-0e08-4397-93bd-9d59a16ce8e3")
+	)
+	(wire
+		(pts
+			(xy 323.85 200.66) (xy 337.82 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88acba27-3f61-4391-a013-f573e1ffe279")
 	)
 	(bus
 		(pts
@@ -8734,6 +8828,16 @@
 			(type default)
 		)
 		(uuid "9f5d4f99-7e53-41c9-8d59-9d31c286ffda")
+	)
+	(wire
+		(pts
+			(xy 317.5 200.66) (xy 311.15 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff8ec1d-a593-4753-993c-79190c0e07af")
 	)
 	(wire
 		(pts
@@ -9017,7 +9121,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 134.62) (xy 101.6 134.62)
+			(xy 107.95 134.62) (xy 102.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9177,7 +9281,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.08) (xy 107.95 132.08)
+			(xy 96.52 132.08) (xy 97.79 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9397,16 +9501,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 200.66) (xy 311.15 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52651fd-029d-4163-9e7c-29a060b2de4d")
-	)
-	(wire
-		(pts
 			(xy 120.65 124.46) (xy 120.65 125.73)
 		)
 		(stroke
@@ -9584,16 +9678,6 @@
 			(type default)
 		)
 		(uuid "e641d54f-380d-463c-9233-de493e1ad128")
-	)
-	(wire
-		(pts
-			(xy 322.58 200.66) (xy 337.82 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e981fcb5-f14d-4ada-ab92-7def676db754")
 	)
 	(wire
 		(pts
@@ -9814,6 +9898,16 @@
 			(type default)
 		)
 		(uuid "f9ab1f00-0ff1-4ab6-a66f-4c168607f0dc")
+	)
+	(wire
+		(pts
+			(xy 102.87 134.62) (xy 96.52 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0aa5eb-9072-471a-b18a-165839fd34a6")
 	)
 	(wire
 		(pts
@@ -12518,7 +12612,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 101.6 134.62 180)
+		(at 96.52 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12529,7 +12623,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 101.6 132.08 180)
+		(at 96.52 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14386,6 +14480,123 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 97.79 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21a1569e-c52d-4e50-9efd-c85001284c8b")
+		(property "Reference" "TP24"
+			(at 96.52 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 101.6 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 104.14 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 97.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 109.22 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 104.14 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 106.68 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 109.22 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f8b2d8d-3162-477d-aea5-86d0e3cb0210")
+		)
+		(instances
+			(project "gmsl-deserializer"
+				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/67434a8c-79b7-41fa-b4c4-5db7983eccb1"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 158.75 240.03 0)
 		(unit 1)
@@ -15450,7 +15661,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 322.58 200.66 90)
+		(at 317.5 200.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15458,7 +15669,7 @@
 		(dnp no)
 		(uuid "2e6caa6e-1954-4760-b944-e28a34bcd5ba")
 		(property "Reference" "TP7"
-			(at 323.85 197.485 90)
+			(at 318.77 197.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15468,7 +15679,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 326.39 189.865 0)
+			(at 321.31 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15479,7 +15690,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 328.93 189.865 0)
+			(at 323.85 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15490,7 +15701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 182.88 0)
+			(at 330.2 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,7 +15712,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 322.58 200.66 0)
+			(at 317.5 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15510,17 +15721,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 334.01 189.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 328.93 189.865 0)
 			(effects
 				(font
@@ -15531,8 +15731,19 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 323.85 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Author" "Antmicro"
-			(at 331.47 189.865 0)
+			(at 326.39 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15543,7 +15754,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 334.01 189.865 0)
+			(at 328.93 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16096,6 +16307,123 @@
 			(project "gmsl-deserializer"
 				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/67434a8c-79b7-41fa-b4c4-5db7983eccb1"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 102.87 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a68235a-3e3d-48df-b27f-d38b240c4912")
+		(property "Reference" "TP25"
+			(at 101.6 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 106.68 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 109.22 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 102.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 111.76 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 114.3 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed51372e-a062-4633-a5fb-18fbc94be97a")
+		)
+		(instances
+			(project "gmsl-deserializer"
+				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/67434a8c-79b7-41fa-b4c4-5db7983eccb1"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -18037,6 +18365,123 @@
 			(project "gmsl-deserializer"
 				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/67434a8c-79b7-41fa-b4c4-5db7983eccb1"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 323.85 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c78ba5e-c0d8-4ff4-80c2-1946ae3b1cf8")
+		(property "Reference" "TP23"
+			(at 325.12 197.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 327.66 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 330.2 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 323.85 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 335.28 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 330.2 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 332.74 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 335.28 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48a58264-97bd-48ff-988a-5e2bd72ddbf5")
+		)
+		(instances
+			(project "gmsl-deserializer"
+				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/67434a8c-79b7-41fa-b4c4-5db7983eccb1"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -21578,6 +22023,123 @@
 			(project "gmsl-deserializer"
 				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/67434a8c-79b7-41fa-b4c4-5db7983eccb1"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 49.53 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad57a465-d4cb-4ee1-870c-adbd3bffcf3a")
+		(property "Reference" "TP22"
+			(at 48.26 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 53.34 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 55.88 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 49.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 58.42 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 60.96 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b3e65d7-6895-44e9-ab43-4b936fc1b6a2")
+		)
+		(instances
+			(project "gmsl-deserializer"
+				(path "/6c8ed07b-bd76-4fde-916b-286a1aa0c8da/67434a8c-79b7-41fa-b4c4-5db7983eccb1"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
